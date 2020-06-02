@@ -22,14 +22,18 @@ def gen_greeting(person):
 # but can easily be extended to do so. For now, addresses recipients as an American citizen.
 def gen_intro(location):
     #nominer = ["a resident of %s" % (location), "an American citizen", "a %s native" % (location)]
-    nominer = ["As an American citizen,", "As a concerned US citizen,", "I am an American citizen and"]
+    mess = ["in shambles", "in ruins", "a disaster", "a mess"]
+    nominer = ["As an American citizen,", "As a concerned US citizen,", "I am an American citizen and", "From the heart of an American native,"]
     contact = ["getting in touch", "reaching out to you", "contacting you", "sending you this message"]
     adverb = ["deeply", "very", "greatly", "extremely", "especially", "immensely"]
     concern = ["troubled", "concerned", "disturbed"]
     reason = ["unfair treatment of African-Americans", "blatant racism against African-Americans"]
     scale = ["across the nation", "throughout the country", "nationwide", "across the country", "throughout the nation"]
 
-    return "%s I am %s because I am %s %s by what I have recently seen regarding the %s by police %s.\n" % (random.choice(nominer), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
+    if random.randint(0,100) % 2:
+        return "The current law enforcement system is %s. I am %s because I am %s %s by the %s by police %s.\n" % (random.choice(mess), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
+    else:
+        return "%s I am %s because I am %s %s by what I have recently seen regarding the %s by police %s.\n" % (random.choice(nominer), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
 
 # Randomly generates a message rooted on human curiosity to expose the inadequacies of the current system
 def gen_curiosity():
