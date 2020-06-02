@@ -5,6 +5,10 @@ county_list = [
         ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ),
         ( "Mayor London N. Breed", "SF", "MayorLondonBreed@sfgov.org"),
         ( "Councilmember Nury Martinez", "LA", "councilmember.martinez@lacity.org"),
+        ( "Councilmember Gil Cedillo", "LA", "councilmember.cedillo@lacity.org"),
+        ( "Councilmember Paul Krekorian", "LA", "councilmember.Krekorian@lacity.org"),
+        ( "Councilmember Bob Blumenfield", "LA", "councilmember.blumenfield@lacity.org"),
+        ( "Councilmember David E. Ryu", "LA", "david.ryu@lacity.org"),
     ]
 
 def gen_recipients(location):
