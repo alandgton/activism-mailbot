@@ -69,6 +69,17 @@ mailing_list = {
         ( "Councilmember Vincent Gray", "DC", "vgray@dccouncil.us"),
         ( "Councilmember Trayon White", "DC", "twhite@dccouncil.us"),
     ],
+    "Washington State" : [
+        ( "Mayor Jenny Durkan", "Seattle", "jenny.durkan@seattle.gov"),
+        ( "Councilmember Lisa Herbold", "Seattle", "lisa.herbold@seattle.gov"),
+        ( "Councilmember Tammy Morales", "Seattle", "tammy.morales@seattle.gov"),
+        ( "Councilmember Kshama Sawant", "Seattle", "kshama.sawant@seattle.gov"),
+        ( "Councilmember Alex Pedersen", "Seattle", "alex.pedersen@seattle.gov"),
+        ( "Councilmember Debora Juerez", "Seattle", "debora.juarez@seattle.gov"),
+        ( "Councilmember Dan Strauss", "Seattle", "dan.strauss@seattle.gov"),
+        ( "Councilmember Andrew Lewis", "Seattle", "andrew.lewis@seattle.gov"),
+        ( "Councilmember Teresa Mosqueda", "Seattle", "teresa.mosqueda@seattle.gov"),
+    ],
     "Minnesota" : [
         ( "Mayor Jacob Frey", "Minneapolis", "Jacob.Frey@minneapolismn.gov"),
         ( "Councilmember Kevin Reich", "Minneapolis", "kevin.reich@minneapolismn.gov"),
