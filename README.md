@@ -38,5 +38,14 @@ This is a critical time for the rights and freedoms that we share as American ci
 - Organizations:
 	- [List of Bail Funds](https://bailfunds.github.io/)
 	- [Reclaim the Block](https://www.reclaimtheblock.org/)
-	- 
-
+	- [Official George Floyd Memorial Fund](https://www.gofundme.com/f/georgefloyd)
+	- [Black Visions Collective](https://www.blackvisionsmn.org/)
+	- [Minnesota Freedom Fund](https://minnesotafreedomfund.org/)
+	- [Campaign Zero](https://www.joincampaignzero.org/)
+	- [National Bail Out](http://nationalbailout.org/)
+- Petitions
+	- [Justice for George Floyd (1)](https://www.change.org/p/federal-bureau-of-investigation-justice-for-george-floyd)
+	- [Justice for George Floyd (2)](https://www.change.org/p/andy-beshear-justice-for-breonna-taylor)
+	- [Justice for Breonna Taylor](https://www.change.org/p/andy-beshear-justice-for-breonna-taylor)
+	- [Justice for Tony McDade](https://www.change.org/p/black-lives-matter-activists-justice-for-tony-mcdade)
+	- [#DefundThePolice](https://blacklivesmatter.com/defundthepolice/)
