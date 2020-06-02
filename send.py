@@ -10,15 +10,12 @@ src_email = input("Type your email and press enter: ")
 password = getpass("Type your password and press enter: ")
 
 # create a secure SSL context
-# NOTE: had to debug this by running the Install Certificates.command file
-# https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate
 context = ssl.create_default_context()
 
 with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
     server.login(src_email, password)
-    # TODO: send email here
-    recv = recipients.gen_recipients("LA")
 
+    recv = recipients.gen_recipients("LA")
     for r in recv:
         dst_name = r[0]
         location = r[1]

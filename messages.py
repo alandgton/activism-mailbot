@@ -1,7 +1,7 @@
 import random
 
 """
-    Template used from nomoreracistcops.github.io
+    Template from nomoreracistcops.github.io
 """
 
 def gen_subject():

@@ -1,4 +1,5 @@
 # (name, county, email)
+# If you would like to add to this list, please let me know at alandgton@gmail.com
 county_list = [
         ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
         ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ),
