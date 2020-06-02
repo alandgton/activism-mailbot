@@ -34,6 +34,7 @@ TODO List:
 	- Enter your full name
 	- Enter your gmail
 	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
+	- Enter the subject (title) of your emails. You can leave this blank if you want mailbot to randomly generate titles for you.
 - At the time of writing, this bot sends uniquely generated emails to 119 elected officials across the nation!
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
 	- thank you for your time, we did some good work :^)
