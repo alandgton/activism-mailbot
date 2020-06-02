@@ -1,14 +1,18 @@
 # Activism Mail Bot
 
-In light of recent events, I have created this Python script to send emails (using the template from nomoreracistcops.github.io) to a list of over 80 elected US officials. The script varies sentence structures for each message and randomly switches out nouns, verbs, adverbs, and adjectives with synonyms to make each email unique.
+In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](nomoreracistcops.github.io) to a list of 119 elected US officials. The script varies sentence structures for each message and randomly switches out nouns, verbs, adverbs, and adjectives with synonyms to make each email unique.
 
 **This script only works for gmail accounts.** 
 
-tl;dr to use the script,  run `python3 send.py` in a terminal.
+tl;dr to use the script,  run `python3 send.py` or `./send.py` in a terminal.
 
 For a step-by-step walkthrough, see below.
 
-NOTE: there is a per-minute limit on SMPT messages sent via google's servers. to appease our corporate overlords, i've decreased the speed of our operations.
+NOTE: there is a per-minute limit on SMTP messages sent via google's servers. to appease our corporate overlords, i've decreased the speed of our operations.
+
+TODO List:
+- Setup Google OAuth2 so `activism-mail-bot` can use the gmail API instead of using SMTP.
+- Accept JSON input from a front-end service to make `activism-mail-bot` more accessible. Checkout [la-mailer repo](https://github.com/michaelnyu/la-mailer).
 
 ## Installation
 
@@ -26,13 +30,15 @@ NOTE: there is a per-minute limit on SMPT messages sent via google's servers. to
 	- Be aware that this makes it easier for others to gain access to your account.
 	- After running the script, you should switch this back OFF.
 - Run `python3 send.py`
+	- If you want to use the `./send.py` command, be sure to run `chmod +x send.py` beforehand
 	- Enter your full name
 	- Enter your gmail
 	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
-- At the time of writing, this bot sends uniquely generated emails to 106 elected officials across the nation!
+- At the time of writing, this bot sends uniquely generated emails to 119 elected officials across the nation!
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
 	- thank you for your time, we did some good work :^)
 	- activism++
+	- Please remember to switch `Allow less secure apps` to OFF.
 
 ## Footnote
 
