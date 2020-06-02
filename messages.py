@@ -18,12 +18,10 @@ def gen_greeting(person):
     s = ["Dear", "Hello", "Greetings", "Hi"]
     return "%s %s,\n\n" % (random.choice(s), person)
 
-# Generates the first sentence of the email. Takes no assumptions about where the user is located,
-# but can easily be extended to do so. For now, addresses recipients as an American citizen.
+# Generates the first sentence of the email. Assumes person is a constituent of the city provided.
 def gen_intro(location):
-    #nominer = ["a resident of %s" % (location), "an American citizen", "a %s native" % (location)]
     mess = ["in shambles", "in ruins", "a disaster", "a mess"]
-    nominer = ["As an American citizen,", "As a concerned US citizen,", "I am an American citizen and", "From the heart of an American native,"]
+    nominer = ["As a concerned resident of %s," % (location), "I am a resident of %s and" % (location), "As a concerned constituent,", "I am one of your constituents and"]
     contact = ["getting in touch", "reaching out to you", "contacting you", "sending you this message"]
     adverb = ["deeply", "very", "greatly", "extremely", "especially", "immensely"]
     concern = ["troubled", "concerned", "disturbed"]
@@ -72,12 +70,13 @@ def gen_interests():
             "scientific research,",
     ]
     return "Services that I would rather see funded include: %s to name only a few." % (' '.join(random.sample(i, k=len(i))))
-    
+
 def gen_closing(name):
     c = [
             "Signed",
             "Sincerely",
             "From",
             "Regards",
+            "Best",
     ]
-    return "\nSigned,\n%s" % (name)
+    return "\n%s,\n%s" % (random.choice(c), name)
