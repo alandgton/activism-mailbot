@@ -95,6 +95,29 @@ county_list = [
         ( "Councilmember Helen Gym", "PHILLY", "helen.gym@phila.gov"),
         ( "Councilmember David Oh", "PHILLY", "david.oh@phila.gov"),
         ( "Councilmember Isaiah Thomas", "PHILLY", "Isaiah.Thomas@phila.gov"),
+
+        ( "Mayor Harry LaRosiliere", "PLANO", "mayor@plano.gov"),
+        ( "Mayor Pro Tem Kayci Prince", "PLANO", "kayciprince@plano.gov"),
+        ( "Deputy Mayor Pro Tem Anthony Ricciardelli", "PLANO", "aricciardelli@plano.gov"),
+        ( "Council Member Maria Tu", "PLANO", "mariatu@plano.gov"),
+        ( "Council Member Rick Grady", "PLANO", "rickgrady@plano.gov"),
+        ( "Council Member Shelby Williams", "PLANO", "shelbywilliams@plano.gov"),
+        ( "Council Member Rick Smith", "PLANO", "ricksmith@plano.gov"),
+        ( "Council Member Lily Bao", "PLANO", "lilybao@plano.gov"),
+
+        ( "Council Member Chad West", "DALLAS", "Chad.West@dallascityhall.com"),
+        ( "Mayor Pro Tem Adam Medrano​", "DALLAS", "adam.medrano@dallascityhall.com"),
+        ( "Council Member Casey Thomas, II", "DALLAS", "richard.soto@dallascityhall.com"),
+        ( "Council Member Carolyn King Arnold", "DALLAS", "District4@DallasCityHall.com"),
+        ( "Council Member Jaime Resendez", "DALLAS", "jaime.resendez@dallascityhall.com"),
+        ( "Council Liaison Laura Cadena", "DALLAS", "Laura.Cadena@dallascityhall.com"),
+        ( "Council Assistant Yesenia Valdez", "DALLAS", "Yesenia.Valdez@dallascityhall.com"),
+        ( "Council Member Tennell Atkins", "DALLAS", "maria.salazar2@dallascityhall.com"),
+        ( "Council Member Paula Blackmon", "DALLAS", "District9@DallasCityHall.com"),
+        ( "Deputy Mayor Pro Tem B. Adam McGough", "DALLAS", "adam.mcgough@dallascityhall.com"),
+        ( "Council Member Lee M. Kleinman", "DALLAS", "sophia.figueroa@dallascityhall.com"),
+        ( "Council Member Cara Mendelsohn", "DALLAS", "cara.mendelsohn@dallascityhall.com"),
+
     ]
 
 def gen_recipients(location):
