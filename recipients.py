@@ -1,5 +1,7 @@
 # (name, city, email)
 # If you would like to add to this list, please let me know at alandgton@gmail.com
+# Currently mayors and city council members
+
 county_list = [
         ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
         ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ),
@@ -74,6 +76,25 @@ county_list = [
         ( "Councilmember Jeremy Schroeder", "MINNEAPOLIS", "Jeremy.Schroeder@minneapolismn.gov"),
         ( "Councilmember Andrew Johnson", "MINNEAPOLIS", "Andrew.Johnson@minneapolismn.gov"),
         ( "Councilmember Linea Palmisano", "MINNEAPOLIS", "Linea.Palmisano@minneapolismn.gov"),
+
+        ( "Mayor Jim Kenney", "PHILLY", "james.kenney@phila.gov"),
+        ( "Council President Darrell Clarke", "PHILLY", "darrell.clarke@phila.gov"),
+        ( "Councilmember Mark Squilla", "PHILLY", "mark.squilla@phila.gov"),
+        ( "Councilmember Kenyatta Johnson", "PHILLY", "kenyatta.johnson@phila.gov"),
+        ( "Councilmember Jamie Gauthier", "PHILLY", "jamie.gauthier@phila.gov"),
+        ( "Councilmember Curtis Jones", "PHILLY", "curtis.jones@phila.gov"),
+        ( "Councilmember Bobby Henon", "PHILLY", "bobby@bobbyhenon.com"),
+        ( "Councilmember Maria Quiñones Sánchez", "PHILLY", "maria.q.sanchez@phila.gov"),
+        ( "Councilmember Cindy Bass", "PHILLY", "cindy.bass@phila.gov"),
+        ( "Councilmember Cherelle Parker", "PHILLY", "cherelle.parker@phila.gov"),
+        ( "Councilmember Brian O'Neill", "PHILLY", "brian.o'neill@phila.gov"),
+        ( "Councilmember Kendra Brooks", "PHILLY", "Kendra.Brooks@phila.gov"),
+        ( "Councilmember Allan Domb", "PHILLY", "allan.domb@phila.gov"),
+        ( "Councilmember Derek Green", "PHILLY", "derek.green@phila.gov"),
+        ( "Councilmember Katherine Gilmore Richardson", "PHILLY", "Katherine.G.Richardson@phila.gov"),
+        ( "Councilmember Helen Gym", "PHILLY", "helen.gym@phila.gov"),
+        ( "Councilmember David Oh", "PHILLY", "david.oh@phila.gov"),
+        ( "Councilmember Isaiah Thomas", "PHILLY", "Isaiah.Thomas@phila.gov"),
     ]
 
 def gen_recipients(location):
