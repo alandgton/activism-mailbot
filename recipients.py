@@ -1,4 +1,4 @@
-# (name, county, email)
+# (name, city, email)
 # If you would like to add to this list, please let me know at alandgton@gmail.com
 county_list = [
         ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
@@ -46,17 +46,34 @@ county_list = [
         ( "Councilmember Matt O'Malley", "BOS", "matthew.omalley@boston.gov"),
         ( "Councilmember Kenzie Bok", "BOS", "kenzie.bok@boston.gov"),
 
-        ( "Mayor Martin Walsh", "NYC", "mayor@boston.gov"),
-        ( "Councilmember Annissa Essaibi George", "BOS", "A.E.George@boston.gov"),
-        ( "Councilmember Michael Flaherty", "BOS", "Michael.F.Flaherty@boston.gov"),
-        ( "Councilmember Michelle Wu", "BOS", "Michelle.Wu@boston.gov"),
-        ( "Councilmember Lydia Edwards", "BOS", "lydia.edwards@boston.gov"),
-        ( "Councilmember Ed Flynn", "BOS", "ed.flynn@boston.gov"),
-        ( "Councilmember Frank Baker", "BOS", "Frank.Baker@boston.gov"),
-        ( "Councilmember Andrea Campbell", "BOS", "Andrea.Campbell@boston.gov"),
-        ( "Councilmember Ricardo Arroyo", "BOS", "ricardo.arroyo@boston.gov"),
-        ( "Councilmember Matt O'Malley", "BOS", "matthew.omalley@boston.gov"),
-        ( "Councilmember Kenzie Bok", "BOS", "kenzie.bok@boston.gov"),
+        ( "Mayor Muriel Bowser", "DC", "eom@dc.gov"),
+        ( "Chairman Phil Mendelson", "DC", "pmendelson@dccouncil.us"),
+        ( "Councilmember Kenyan McDuffie", "DC", "kmcduffie@dccouncil.us"),
+        ( "Councilmember Anita Bonds", "DC", "abonds@dccouncil.us"),
+        ( "Councilmember David Grosso", "DC", "dgrosso@dccouncil.us"),
+        ( "Councilmember Robert White", "DC", "rwhite@dccouncil.us"),
+        ( "Councilmember Elissa Silverman", "DC", "esilverman@dccouncil.us"),
+        ( "Councilmember Brianne Nadeau", "DC", "bnadeau@dccouncil.us"),
+        ( "Councilmember Mary Cheh", "DC", "mcheh@dccouncil.us"),
+        ( "Councilmember Brandon Todd", "DC", "btodd@dccouncil.us"),
+        ( "Councilmember Charles Allen", "DC", "callen@dccouncil.us"),
+        ( "Councilmember Vincent Gray", "DC", "vgray@dccouncil.us"),
+        ( "Councilmember Trayon White", "DC", "twhite@dccouncil.us"),
+
+        ( "Mayor Jacob Frey", "MINNEAPOLIS", "Jacob.Frey@minneapolismn.gov"),
+        ( "Councilmember Kevin Reich", "MINNEAPOLIS", "kevin.reich@minneapolismn.gov"),
+        ( "Councilmember Cam Gordon", "MINNEAPOLIS", "cam.gordon@minneapolismn.gov"),
+        ( "Councilmember Steve Fletcher", "MINNEAPOLIS", "steve.fletcher@minneapolismn.gov"),
+        ( "Councilmember Phillipe Cunningham", "MINNEAPOLIS", "Phillipe.Cunningham@minneapolismn.gov"),
+        ( "Councilmember Jeremiah Ellison", "MINNEAPOLIS", "Jeremiah.Ellison@minneapolismn.gov"),
+        ( "Councilmember Abdi Warsame", "MINNEAPOLIS", "Abdi.Warsame@minneapolismn.gov"),
+        ( "Councilmember Lisa Goodman", "MINNEAPOLIS", "Lisa.Goodman@minneapolismn.gov"),
+        ( "Councilmember Andrea Jenkins", "MINNEAPOLIS", "Andrea.Jenkins@minneapolismn.gov"),
+        ( "Councilmember Alondra Cano", "MINNEAPOLIS", "Alondra.Cano@minneapolismn.gov"),
+        ( "Councilmember Lisa Bender", "MINNEAPOLIS", "Lisa.Bender@minneapolismn.gov"),
+        ( "Councilmember Jeremy Schroeder", "MINNEAPOLIS", "Jeremy.Schroeder@minneapolismn.gov"),
+        ( "Councilmember Andrew Johnson", "MINNEAPOLIS", "Andrew.Johnson@minneapolismn.gov"),
+        ( "Councilmember Linea Palmisano", "MINNEAPOLIS", "Linea.Palmisano@minneapolismn.gov"),
     ]
 
 def gen_recipients(location):
