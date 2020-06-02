@@ -1,8 +1,9 @@
-# (name, city, email)
 # If you would like to add to this list, please let me know at alandgton@gmail.com
 # Currently mayors and city council members
 
-county_list = [
+# { state0 -> [(contact0), ..., (contactn)], state1 -> [(contact0), ..., (contactn)], ..., staten -> [(contact0), ..., (contactn)] }
+mailing_list = {
+    "California" : [
         ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
         ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ), ( "Councilmember Nury Martinez", "LA", "councilmember.martinez@lacity.org"),
         ( "Councilmember Gil Cedillo", "LA", "councilmember.cedillo@lacity.org"),
@@ -34,7 +35,8 @@ county_list = [
         ( "Councilmember Sylvia Arenas", "SJ", "District8@sanjoseca.gov"),
         ( "Councilmember Pam Foley", "SJ", "District9@sanjoseca.gov"),
         ( "Councilmember Johnny Khamis", "SJ", "District10@sanjoseca.gov"),
-
+    ],
+    "Massachusetts" : [
         ( "Mayor Martin Walsh", "BOS", "mayor@boston.gov"),
         ( "Councilmember Annissa Essaibi George", "BOS", "A.E.George@boston.gov"),
         ( "Councilmember Michael Flaherty", "BOS", "Michael.F.Flaherty@boston.gov"),
@@ -46,7 +48,8 @@ county_list = [
         ( "Councilmember Ricardo Arroyo", "BOS", "ricardo.arroyo@boston.gov"),
         ( "Councilmember Matt O'Malley", "BOS", "matthew.omalley@boston.gov"),
         ( "Councilmember Kenzie Bok", "BOS", "kenzie.bok@boston.gov"),
-
+    ],
+    "Washington" : [
         ( "Mayor Muriel Bowser", "DC", "eom@dc.gov"),
         ( "Chairman Phil Mendelson", "DC", "pmendelson@dccouncil.us"),
         ( "Councilmember Kenyan McDuffie", "DC", "kmcduffie@dccouncil.us"),
@@ -60,7 +63,8 @@ county_list = [
         ( "Councilmember Charles Allen", "DC", "callen@dccouncil.us"),
         ( "Councilmember Vincent Gray", "DC", "vgray@dccouncil.us"),
         ( "Councilmember Trayon White", "DC", "twhite@dccouncil.us"),
-
+    ],
+    "Minnesota" : [
         ( "Mayor Jacob Frey", "MINNEAPOLIS", "Jacob.Frey@minneapolismn.gov"),
         ( "Councilmember Kevin Reich", "MINNEAPOLIS", "kevin.reich@minneapolismn.gov"),
         ( "Councilmember Cam Gordon", "MINNEAPOLIS", "cam.gordon@minneapolismn.gov"),
@@ -75,7 +79,8 @@ county_list = [
         ( "Councilmember Jeremy Schroeder", "MINNEAPOLIS", "Jeremy.Schroeder@minneapolismn.gov"),
         ( "Councilmember Andrew Johnson", "MINNEAPOLIS", "Andrew.Johnson@minneapolismn.gov"),
         ( "Councilmember Linea Palmisano", "MINNEAPOLIS", "Linea.Palmisano@minneapolismn.gov"),
-
+    ],
+    "Pennsylvania" : [
         ( "Mayor Jim Kenney", "PHILLY", "james.kenney@phila.gov"),
         ( "Council President Darrell Clarke", "PHILLY", "darrell.clarke@phila.gov"),
         ( "Councilmember Mark Squilla", "PHILLY", "mark.squilla@phila.gov"),
@@ -94,7 +99,8 @@ county_list = [
         ( "Councilmember Helen Gym", "PHILLY", "helen.gym@phila.gov"),
         ( "Councilmember David Oh", "PHILLY", "david.oh@phila.gov"),
         ( "Councilmember Isaiah Thomas", "PHILLY", "Isaiah.Thomas@phila.gov"),
-
+    ],
+    "Texas" : [
         ( "Mayor Harry LaRosiliere", "PLANO", "mayor@plano.gov"),
         ( "Mayor Pro Tem Kayci Prince", "PLANO", "kayciprince@plano.gov"),
         ( "Deputy Mayor Pro Tem Anthony Ricciardelli", "PLANO", "aricciardelli@plano.gov"),
@@ -116,11 +122,11 @@ county_list = [
         ( "Deputy Mayor Pro Tem B. Adam McGough", "DALLAS", "adam.mcgough@dallascityhall.com"),
         ( "Council Member Lee M. Kleinman", "DALLAS", "sophia.figueroa@dallascityhall.com"),
         ( "Council Member Cara Mendelsohn", "DALLAS", "cara.mendelsohn@dallascityhall.com"),
-
-    ]
+    ]}
 
 def gen_recipients(location):
     recv = []
-    for c in county_list:
-        recv.append(c)
+    for state in mailing_list:
+        for contact in mailing_list[state]:
+            recv.append(contact)
     return recv

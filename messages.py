@@ -79,6 +79,5 @@ def gen_closing(name):
             "Sincerely",
             "From",
             "Regards",
-            
     ]
     return "\nSigned,\n%s" % (name)
