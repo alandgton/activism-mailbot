@@ -8,6 +8,8 @@ tl;dr to use the script,  run `python3 send.py` in a terminal.
 
 For a step-by-step walkthrough, see below.
 
+NOTE: there is a per-minute limit on SMPT messages sent via google's servers. to appease our corporate overlords, i've decreased the speed of our operations.
+
 ## Installation
 
 - Install python3
