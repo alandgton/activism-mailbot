@@ -1,5 +1,5 @@
 # If you would like to add to this list, please let me know at alandgton@gmail.com
-# Currently mayors and city council members
+# Currently mayors and city council members and police commissioners
 
 # { state0 -> [(name, city, level of govt, email), (contact1) ..., (contactn)], state1 -> [(contact0), ..., (contactn)], ..., staten -> [(contact0), ..., (contactn)] }
 # level of govt = LOCAL or STATE
@@ -12,6 +12,7 @@ mailing_list = {
         ( "Councilmember Paul Krekorian", "LA", "councilmember.Krekorian@lacity.org"),
         ( "Councilmember Bob Blumenfield", "LA", "councilmember.blumenfield@lacity.org"),
         ( "Councilmember David E. Ryu", "LA", "david.ryu@lacity.org"),
+        ( "LA Board of Police Commissioners", "LA", "policecommission@lapd.online"),
 
         ( "Mayor London N. Breed", "SF", "MayorLondonBreed@sfgov.org"),
         ( "Supervisor Matt Haney", "SF", "Matt.Haney@sfgov.org"),
@@ -25,6 +26,7 @@ mailing_list = {
         ( "Supervisor Catherine Stefani", "SF", "Catherine.Stefani@sfgov.org"),
         ( "Supervisor Shamann Walton", "SF", "Shamann.Walton@sfgov.org"),
         ( "Supervisor Norman Yee", "SF", "Norman.Yee@sfgov.org"),
+        ( "San Francisco Police Commission", "SF", "sfpd.commission@sfgov.org"),
 
         ( "Mayor Sam Liccardo", "San Jose", "mayoremail@sanjoseca.gov"),
         ( "Vice Mayor Charles Jones", "San Jose", "District1@sanjoseca.gov"),
@@ -50,6 +52,7 @@ mailing_list = {
         ( "Councilmember Ricardo Arroyo", "Boston", "ricardo.arroyo@boston.gov"),
         ( "Councilmember Matt O'Malley", "Boston", "matthew.omalley@boston.gov"),
         ( "Councilmember Kenzie Bok", "Boston", "kenzie.bok@boston.gov"),
+        ( "Commissioner William Gross", "Boston", "mediarelations@pd.boston.gov"),
     ],
     "Washington" : [
         ( "Mayor Muriel Bowser", "DC", "eom@dc.gov"),
@@ -101,6 +104,7 @@ mailing_list = {
         ( "Councilmember Helen Gym", "Philadelphia", "helen.gym@phila.gov"),
         ( "Councilmember David Oh", "Philadelphia", "david.oh@phila.gov"),
         ( "Councilmember Isaiah Thomas", "Philadelphia", "Isaiah.Thomas@phila.gov"),
+        ( "Commissioner Richard Ross", "Philadelphia", "police.commissioner@phila.gov"),
     ],
     "Texas" : [
         ( "Mayor Harry LaRosiliere", "Plano", "mayor@plano.gov"),
