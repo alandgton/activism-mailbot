@@ -50,7 +50,7 @@ def gen_rhetorical_questions():
             "Does the department perform any form of anti-racism training for officers?",
             "Are new recruits screened in any way to prevent the hiring of racists, for instance: looking at their social media posts?",
             "How do internal affairs investigate and respond to reports of discrimination, racism, and unjust brutality?",
-            "How can the general public be ensured that incidences of racist violence by police are not simply swepy under the rug?",
+            "How can the general public be ensured that incidences of racist violence by police are not simply swept under the rug?",
     ]
     return ' '.join(random.sample(q, k=len(q)))
 
@@ -67,7 +67,7 @@ def gen_interests():
     i = [
             "mental health professionals,",
             "crisis de-escalators,",
-            "support for victims domestic abuse and addiction,",
+            "support for victims of domestic abuse and addiction,",
             "public education,",
             "scientific research,",
     ]
@@ -82,5 +82,3 @@ def gen_closing(name):
             
     ]
     return "\nSigned,\n%s" % (name)
-
-print(gen_body("Alan", "Alan", "Alan"))

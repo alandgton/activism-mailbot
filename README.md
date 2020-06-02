@@ -1,6 +1,6 @@
 # Activism Mail Bot
 
-In light of recent events, I have created this Python script to send an email (using the template from nomoreracistcops.github.io) to a list of elected US officials (found in `recipients.py`). The script randomly switches out nouns/verbs/adverbs with synonyms to make each message unique.
+In light of recent events, I have created this Python script to send emails (using the template from nomoreracistcops.github.io) to a list of over 80 elected US officials. The script varies sentence structures for each message and randomly switches out nouns, verbs, adverbs, and adjectives with synonyms to make each email unique.
 
 **This script only works for gmail accounts.** 
 
@@ -31,3 +31,12 @@ For a step-by-step walkthrough, see below.
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
 	- thank you for your time, we did some good work
 	- activism++
+
+## Footnote
+
+This is a critical time for the rights and freedoms that we share as American citizens. Please donate to the organizations and sign the petitions listed below.
+- Organizations:
+	- [List of Bail Funds](https://bailfunds.github.io/)
+	- [Reclaim the Block](https://www.reclaimtheblock.org/)
+	- 
+
