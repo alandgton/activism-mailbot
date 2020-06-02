@@ -27,14 +27,14 @@ For a step-by-step walkthrough, see below.
 	- Enter your full name
 	- Enter your gmail
 	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
-- By default, the script sends the randomly generated messages to LA Mayor Eric Garcetti, City Attorney Mike Feuer, SF Mayor London Breed, and LA Councilmember Nury Martinez
+- At the time of writing, this bot sends uniquely generated emails to 106 elected officials across the nation!
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
-	- thank you for your time, we did some good work
+	- thank you for your time, we did some good work :^)
 	- activism++
 
 ## Footnote
 
-This is a critical time for the rights and freedoms that we share as American citizens. Check out this <a href="https://www.notion.so/Activism-Resources-and-Notes-5e095c3bc65845c8993598194bccfc1b" target="_blank">compilation of activism resources and notes</a>(credit: Jemma Kwak)!
+This is a critical time for the rights and freedoms that we cherish as American citizens. Check out this <a href="https://www.notion.so/Activism-Resources-and-Notes-5e095c3bc65845c8993598194bccfc1b" target="_blank">compilation of activism resources and notes</a> (credit: Jemma Kwak)!
 
 Listed below are organizations gladly accepting donations and petitions to sign.
 - Organizations:
