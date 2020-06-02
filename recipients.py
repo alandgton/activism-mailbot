@@ -141,7 +141,7 @@ mailing_list = {
         ( "Councilmember Cara Mendelsohn", "Dallas", "cara.mendelsohn@dallascityhall.com"),
     ]}
 
-def gen_recipients(location):
+def gen_recipients():
     recv = []
     for state in mailing_list:
         for contact in mailing_list[state]:

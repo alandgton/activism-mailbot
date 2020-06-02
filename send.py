@@ -3,7 +3,6 @@ import messages, recipients, smtplib, ssl, time
 from getpass import getpass
 from email.message import EmailMessage
 
-
 port = 465 # standard port for SMTP over SSL
 smtp_server = "smtp.gmail.com"
 
@@ -11,7 +10,10 @@ src_name = input("Type your name and press enter: ")
 src_email = input("Type your email and press enter: ")
 password = getpass("Type your password and press enter: ")
 
-recv = recipients.gen_recipients("LA")
+print("\nWhat would you like the subject (title) of your email to be?")
+subject = input("Type here and press enter (a random one will be generated if blank): ")
+
+recv = recipients.gen_recipients()
 
 while True:
     try:
@@ -28,7 +30,7 @@ while True:
 
                 msg = EmailMessage()
 
-                msg['Subject'] = messages.gen_subject()
+                msg['Subject'] = subject if subject else messages.gen_subject()
                 msg['From'] = src_email
                 msg['To'] = dst_email
                 
