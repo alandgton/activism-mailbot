@@ -22,7 +22,7 @@ For a step-by-step walkthrough, see below.
 
 - Turn [_Allow less secure apps_  to  _ON_](https://myaccount.google.com/lesssecureapps) for your gmail account.
 	- Be aware that this makes it easier for others to gain access to your account.
-	- After running the script, you should switch this back ON.
+	- After running the script, you should switch this back OFF.
 - Run `python3 send.py`
 	- Enter your full name
 	- Enter your gmail

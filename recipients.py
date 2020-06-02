@@ -4,8 +4,7 @@
 
 county_list = [
         ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
-        ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ),
-        ( "Councilmember Nury Martinez", "LA", "councilmember.martinez@lacity.org"),
+        ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ), ( "Councilmember Nury Martinez", "LA", "councilmember.martinez@lacity.org"),
         ( "Councilmember Gil Cedillo", "LA", "councilmember.cedillo@lacity.org"),
         ( "Councilmember Paul Krekorian", "LA", "councilmember.Krekorian@lacity.org"),
         ( "Councilmember Bob Blumenfield", "LA", "councilmember.blumenfield@lacity.org"),
@@ -106,7 +105,7 @@ county_list = [
         ( "Council Member Lily Bao", "PLANO", "lilybao@plano.gov"),
 
         ( "Council Member Chad West", "DALLAS", "Chad.West@dallascityhall.com"),
-        ( "Mayor Pro Tem Adam Medrano​", "DALLAS", "adam.medrano@dallascityhall.com"),
+        ( "Mayor Pro Tem Adam Medrano", "DALLAS", "adam.medrano@dallascityhall.com"),
         ( "Council Member Casey Thomas, II", "DALLAS", "richard.soto@dallascityhall.com"),
         ( "Council Member Carolyn King Arnold", "DALLAS", "District4@DallasCityHall.com"),
         ( "Council Member Jaime Resendez", "DALLAS", "jaime.resendez@dallascityhall.com"),
