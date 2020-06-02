@@ -1,6 +1,6 @@
 # Activism Mail Bot
 
-In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](nomoreracistcops.github.io) to a list of 119 elected US officials. The script varies sentence structures for each message and randomly switches out nouns, verbs, adverbs, and adjectives with synonyms to make each email unique.
+In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/) to a list of 119 elected US officials. The script varies sentence structures for each message and randomly switches out nouns, verbs, adverbs, and adjectives with synonyms to make each email unique.
 
 **This script only works for gmail accounts.** 
 
