@@ -10,14 +10,14 @@ src_name = input("Type your name and press enter: ")
 src_email = input("Type your email and press enter: ")
 password = getpass("Type your password and press enter: ")
 
-# create a secure SSL context
-context = ssl.create_default_context()
-
 recv = recipients.gen_recipients("LA")
 
-with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-    while True:
-        try:
+while True:
+    try:
+        # create a secure SSL context
+        context = ssl.create_default_context()
+
+        with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
             server.login(src_email, password)
             while recv:
                 recipient = recv.pop()
@@ -36,7 +36,7 @@ with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
                 print(msg.as_string())
 
                 server.send_message(msg)
-            break
-        except smtplib.SMTPException:
-            print("Unexpected error... trying again in 10 seconds.")
-            time.sleep(10)
+        break
+    except smtplib.SMTPException:
+        print("Unexpected error... trying again in 10 seconds.")
+        time.sleep(10)
