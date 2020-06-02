@@ -6,7 +6,7 @@ In light of recent events, I have created this Python script to send emails (usi
 
 tl;dr to use the script,  run `python3 send.py` or `./send.py` in a terminal.
 
-For a step-by-step walkthrough, see below.
+For a step-by-step walkthrough, see below. Please report bugs to alandgton@gmail.com!
 
 NOTE: there is a per-minute limit on SMTP messages sent via google's servers. to appease our corporate overlords, i've decreased the speed of our operations.
 
