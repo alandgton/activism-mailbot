@@ -22,7 +22,7 @@ TODO List:
 - `cd activism-mail-bot/`
 
 - Mac Users: you'll need to install certificates for SSL to work
-	- ⌘ + return, search for Install Certificates.command
+	- ⌘ + space, search for Install Certificates.command
 	- double-click the resulting file
 	- Read more here: [https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
 
