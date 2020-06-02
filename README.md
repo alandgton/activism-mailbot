@@ -34,7 +34,9 @@ For a step-by-step walkthrough, see below.
 
 ## Footnote
 
-This is a critical time for the rights and freedoms that we share as American citizens. Please donate to the organizations and sign the petitions listed below.
+This is a critical time for the rights and freedoms that we share as American citizens. Check out this [compilation of activism resources and notes](https://www.notion.so/Activism-Resources-and-Notes-5e095c3bc65845c8993598194bccfc1b) (credit: Jemma Kwak)!
+
+Listed below are organizations gladly accepting donations and petitions to sign.
 - Organizations:
 	- [List of Bail Funds](https://bailfunds.github.io/)
 	- [Reclaim the Block](https://www.reclaimtheblock.org/)
