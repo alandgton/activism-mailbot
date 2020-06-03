@@ -6,7 +6,7 @@ import random
 
 # Randomly generates the subject header of the email
 def gen_subject():
-    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen"]
+    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen", "The Need for Law Enforcement Reform", "Reforms to Law Enforcement Needed"]
     return random.choice(s)
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
@@ -31,13 +31,13 @@ def gen_intro(location):
     if random.randint(0,100) % 2:
         return "The current law enforcement system is %s. I am %s because I am %s %s by the %s by police %s.\n" % (random.choice(mess), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
     else:
-        return "%s I am %s because I am %s %s by what I have recently seen regarding the %s by police %s.\n" % (random.choice(nominer), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
+        return "%s I am %s because I am %s %s by what I have seen recently regarding the %s by police %s.\n" % (random.choice(nominer), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
 
 # Randomly generates a message rooted on human curiosity to expose the inadequacies of the current system
 def gen_curiosity():
     verb = ["know", "inquire", "ask"]
     noun = ["safeguards", "policies", "provisions"]
-    crime = ["incidents of racism", "violations of human rights", "occurrences of racism", "explotations of human rights"]
+    crime = ["incidents of racism", "violations of human rights", "occurrences of racism", "exploitations of human rights"]
 
     return "I would like to %s what %s our police departments have in place to prevent %s by officers. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
 
@@ -45,16 +45,27 @@ def gen_curiosity():
 def gen_rhetorical_questions():
     q = [
             "Are all officers required to wear body cameras to record their responses to calls on video?",
-            "Does the department perform any form of anti-racism training for officers?",
+            "Do departments perform any form of anti-racism training for officers?",
             "Are new recruits screened in any way to prevent the hiring of racists, for instance: looking at their social media posts?",
             "How do internal affairs investigate and respond to reports of discrimination, racism, and unjust brutality?",
-            "How can the general public be ensured that incidences of racist violence by police are not simply swept under the rug?",
+            "How can the general public be ensured that incidences of racist violence by police are not simply swept under the rug? In particular, how can I be sure that police officers are held accountable for their actions?",
     ]
     return ' '.join(random.sample(q, k=len(q)))
 
 def gen_conclusion(name):
     noun = ["safeguards", "policies", "provisions"]
-    return "If these %s are not in place, then they certainly should be. I do not support my local taxes being used to fund police departments that perpetuate racism and violence. %s\nThank you for your attention to my concerns. I hope to hear back from you soon.\n%s" % (random.choice(noun), gen_interests(), gen_closing(name))
+    verb = ["support", "want", "approve of"]
+    place = ["law enforcement agencies", "police departments", "government institutions", "public institutions"]
+    return "If these %s are not in place, then they certainly should be. %s I do not %s my local taxes being used to fund %s that perpetuate racism and violence. %s\n%s\n%s" % (random.choice(noun), gen_action(), random.choice(verb), random.choice(place), gen_interests(), gen_gratitude(), gen_closing(name))
+
+def gen_action():
+    bank = [
+        "The status quo is failing us. Reforms to law enforcement agencies must be enacted.",
+        "The current system isn't working and changes must be made to how law is enforced in this country.",
+        "This issue is nothing new. The frequency of these incidents suggest that reforms must be made to law enforcement agencies across the nation.",
+    ]
+
+    return random.choice(bank)
 
 def gen_interests():
     preambles = [
@@ -70,6 +81,20 @@ def gen_interests():
             "scientific research,",
     ]
     return "Services that I would rather see funded include: %s to name only a few." % (' '.join(random.sample(i, k=len(i))))
+
+def gen_gratitude():
+    clauses = [
+            "Thank you for your attention to my concerns.",
+            "Thanks for taking the time to read my message.",
+            "Your attention to my concerns are very appreciated.",
+    ]
+    finale = [
+            "I hope to hear back from you soon.",
+            "I'm hoping to hear back from you soon.",
+            "I look forward to hearing back from you.",
+    ]
+
+    return "%s %s" % (random.choice(clauses), random.choice(finale))
 
 def gen_closing(name):
     c = [
