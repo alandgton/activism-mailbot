@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo "export PATH=\"/usr/local/opt/python/libexec/bin:$PATH\"" >> ~/.profile
+brew install python
