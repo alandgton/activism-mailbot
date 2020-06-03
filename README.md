@@ -19,6 +19,8 @@ TODO List:
 ## Installation
 
 - [Install python3](https://realpython.com/installing-python/)
+	- Mac Users: you can double-click the `install-python3-osx` file instead
+	- Windows Users: TBD
 
 - `git clone https://github.com/alandgton/activism-mail-bot.git`
 - `cd activism-mail-bot/`
