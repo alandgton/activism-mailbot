@@ -18,7 +18,7 @@ TODO List:
 
 ## Installation
 
-- Install python3
+- [Install python3](https://realpython.com/installing-python/)
 
 - `git clone https://github.com/alandgton/activism-mail-bot.git`
 - `cd activism-mail-bot/`
