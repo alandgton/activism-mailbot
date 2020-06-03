@@ -1,6 +1,6 @@
 # Activism Mail Bot
 
-In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/)) to a list of 128 elected US officials.
+In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/)) to a list of 159 elected US officials.
 
 The script sends a **unique message to each lawmaker** by varying sentence structures and switching out nouns, verbs, adverbs, and adjectives with synonyms.
 
@@ -37,7 +37,7 @@ TODO List:
 	- Enter your gmail
 	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
 	- Enter the subject (title) of your emails. You can leave this blank if you want mailbot to randomly generate titles for you.
-- At the time of writing, this bot sends uniquely generated emails to 128 elected officials across the nation!
+- At the time of writing, this bot sends uniquely generated emails to 159 elected officials across the nation!
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
 	- thank you for your time, we did some good work :^)
 	- activism++
