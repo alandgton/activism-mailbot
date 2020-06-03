@@ -39,6 +39,22 @@ mailing_list = {
         ( "Councilmember Sylvia Arenas", "San Jose", "District8@sanjoseca.gov"),
         ( "Councilmember Pam Foley", "San Jose", "District9@sanjoseca.gov"),
         ( "Councilmember Johnny Khamis", "San Jose", "District10@sanjoseca.gov"),
+
+        ("Mayor Lisa Gillmore", "Santa Clara", "lgillmor@santaclaraca.gov"),
+        ("Vice Mayor Karen Hardy", "Santa Clara", "khardy@santaclaraca.gov"),
+        ("Councilmember Kathy Watanabe", "Santa Clara", "kwatanabe@santaclaraca.gov"),
+        ("Councilmember Raj Chahal", "Santa Clara", "rchahal@santaclaraca.gov"),
+        ("Councilmember Teresa O'Neill", "Santa Clara", "toneill@santaclaraca.gov"),
+        ("Councilmember Karen Hardy", "Santa Clara", "khardy@santaclaraca.gov"),
+        ("Councilmember Debbie Davis", "Santa Clara", "ddavis@santaclaraca.gov"),
+        ("City Attorney Brian Doyle", "Santa Clara", "CityAttorney@santaclaraca.gov"),
+
+        ("Mayor Marilyn Ezzy Ashcraft", "Alameda", "mezzyashcraft@alamedaca.gov"),
+        ("Vice Mayor John Knox White", "Alameda", "jknoxwhite@alamedaca.gov"),
+        ("Councilmember Tony Daysog", "Alameda", "tdaysog@alamedaca.gov"),
+        ("Councilmember Jim Oddie", "Alameda", "joddie@alamedaca.gov"),
+        ("Councilmember Malia Vella", "Alameda", "mvella@alamedaca.gov"),
+        ("District Attorney Nancy E. O’Malley", "Alameda", "info@alcoda.org"),
     ],
     "Massachusetts" : [
         ( "Mayor Martin Walsh", "Boston", "mayor@boston.gov"),
@@ -139,7 +155,26 @@ mailing_list = {
         ( "Councilmember Paula Blackmon", "Dallas", "District9@DallasCityHall.com"),
         ( "Councilmember Lee M. Kleinman", "Dallas", "sophia.figueroa@dallascityhall.com"),
         ( "Councilmember Cara Mendelsohn", "Dallas", "cara.mendelsohn@dallascityhall.com"),
-    ]}
+    ],
+    "Georgia" : [
+        ("Mayor Keisha Lance Bottoms", "Atlanta", "kbottoms@atlantaga.gov"),
+        ("Council President Felicia A. Moore", "Atlanta", "fmoore@atlantaga.gov"),
+        ("Councilmember Carla Smith", "Atlanta", "csmith@atlantaga.gov"),
+        ("Councilmember Amir R. Farokhi", "Atlanta", "arfarokhi@atlantaga.gov"),
+        ("Councilmember Antonio Brown", "Atlanta", "antoniobrown@atlantaga.gov"),
+        ("Councilmember Cleta Winslow", "Atlanta", "cwinslow@atlantaga.gov"),
+        ("Councilmember Natalyn Archibong", "Atlanta", "narchibong@atlantaga.gov"),
+        ("Councilmember Jennifer N. Ide", "Atlanta", "jnide@atlantaga.gov"),
+        ("Councilmember Howard Shook", "Atlanta", "hshook@atlantaga.gov"),
+        ("Councilmember J.P. Matzigkeit", "Atlanta", "jpmatzigkeit@atlantaga.gov"),
+        ("Councilmember Dustin Hills", "Atlanta", "drhillis@atlantaga.gov"),
+        ("Councilmember Andrea L. Boone", "Atlanta", "aboone@atlantaga.gov"),
+        ("Councilmember Marci Collier Overstreet", "Atlanta", "mcoverstreet@atlantaga.gov"),
+        ("Councilmember Joyce Sheperd", "Atlanta", "jmsheperd@atlantaga.gov"),
+        ("Councilmember Michael Julian Bond", "Atlanta", "mbond@atlantaga.gov"),
+        ("Councilmember Matt Westmoreland", "Atlanta", "mwestmoreland@atlantaga.gov"),
+        ("Councilmember Andre Dickens", "Atlanta", "adickens@atlantaga.gov"),
+]}
 
 def gen_recipients():
     recv = []
