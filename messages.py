@@ -6,7 +6,7 @@ import random
 
 # Randomly generates the subject header of the email
 def gen_subject():
-    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen"]
+    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen"]
     return random.choice(s)
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
