@@ -6,7 +6,7 @@ The script sends a **unique message to each lawmaker** by varying sentence struc
 
 **This script only works for gmail accounts.** 
 
-tl;dr to use the script,  run `python3 send.py` or `./send.py` in a terminal.
+tl;dr to use the script,  run `python3 send.py` in a terminal.
 
 For a step-by-step walkthrough, see below. Please report bugs to alandgton@gmail.com!
 
@@ -18,12 +18,15 @@ TODO List:
 
 ## Installation
 
+- Download the source code
+	- Option 1: click the green "Clone or download" button on the upper-right, then "Download ZIP"
+		- Then, decompress the files somewhere on your computer
+	- Option 2: `git clone https://github.com/alandgton/activism-mail-bot.git`
+		- Requires: a Github account, a terminal, and git installation
+
 - [Install python3](https://realpython.com/installing-python/)
 	- Mac Users: you can double-click the `install-python3-osx` file instead
 	- Windows Users: TBD
-
-- `git clone https://github.com/alandgton/activism-mail-bot.git`
-- `cd activism-mail-bot/`
 
 - Mac Users: you'll need to install certificates for SSL to work
 	- ⌘ + space, search for Install Certificates.command
@@ -34,7 +37,8 @@ TODO List:
 	- Be aware that this makes it easier for others to gain access to your account.
 	- After running the script, you should switch this back OFF.
 - Run `python3 send.py`
-	- If you want to use the `./send.py` command, be sure to run `chmod +x send.py` beforehand
+	- Make sure you are in the `activism-mail-bot` directory
+		- If you aren't, use the command `cd activism-mail-bot/`
 	- Enter your full name
 	- Enter your gmail
 	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
