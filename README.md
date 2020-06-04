@@ -18,7 +18,7 @@ TODO List:
 
 Also, I don't really care about code ownership. I'm hoping that, if you're going to use this tool in one of your projects, you'll have enough self-respect to give credit where it is due. My only request is that you DO NOT MONETIZE this script. Thanks!!
 
-## Installation
+## Walkthrough
 
 - Download the source code
 	- Option 1: click the green "Clone or download" button on the upper-right, then "Download ZIP"
@@ -38,6 +38,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - Turn [_Allow less secure apps_  to  _ON_](https://myaccount.google.com/lesssecureapps) for your gmail account.
 	- Be aware that this makes it easier for others to gain access to your account.
 	- After running the script, you should switch this back OFF.
+	- Your name, gmail, and password aren't being stored on a server anywhere, this script is run from your own computer!
 - Run `python3 send.py`
 	- Make sure you are in the `activism-mail-bot` directory
 		- If you aren't, use the command `cd activism-mail-bot/`
