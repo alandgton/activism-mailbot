@@ -16,6 +16,8 @@ TODO List:
 - Setup Google OAuth2 so `activism-mail-bot` can use the gmail API instead of using SMTP.
 - Accept JSON input from a front-end service to make `activism-mail-bot` more accessible. Checkout [la-mailer repo](https://github.com/michaelnyu/la-mailer).
 
+Also, I don't really care about code ownership. I'm hoping that, if you're going to use this tool in one of your projects, you'll have enough self-respect to give credit where it is due. My only request is that you DO NOT MONETIZE this script. Thanks!!
+
 ## Installation
 
 - Download the source code
