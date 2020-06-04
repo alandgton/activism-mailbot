@@ -62,6 +62,11 @@ mailing_list = {
             ("District Attorney Nancy E. O’Malley", "Alameda", "info@alcoda.org"),
         ],
     },
+    "Illinois" : {
+        "Chicago" : [
+            ("Mayor Lori Lightfoot", "Chicago", "letterforthemayor@cityofchicago.org"),
+        ],
+    },
     "Massachusetts" : {
         "Boston" : [
             ( "Mayor Martin Walsh", "Boston", "mayor@boston.gov"),
@@ -147,7 +152,7 @@ mailing_list = {
             ( "Councilmember Trayon White", "DC", "twhite@dccouncil.us"),
         ],
     },
-    "Washington State" : {
+    "Washington" : {
         "Seattle" : [
             ( "Mayor Jenny Durkan", "Seattle", "jenny.durkan@seattle.gov"),
             ( "Councilmember Lisa Herbold", "Seattle", "lisa.herbold@seattle.gov"),
@@ -161,15 +166,19 @@ mailing_list = {
         ],
     },
     "Texas" : {
-        "Plano" : [
-            ( "Mayor Harry LaRosiliere", "Plano", "mayor@plano.gov"),
-            ( "Mayor Pro Tem Kayci Prince", "Plano", "kayciprince@plano.gov"),
-            ( "Deputy Mayor Pro Tem Anthony Ricciardelli", "Plano", "aricciardelli@plano.gov"),
-            ( "Councilmember Maria Tu", "Plano", "mariatu@plano.gov"),
-            ( "Councilmember Rick Grady", "Plano", "rickgrady@plano.gov"),
-            ( "Councilmember Shelby Williams", "Plano", "shelbywilliams@plano.gov"),
-            ( "Councilmember Rick Smith", "Plano", "ricksmith@plano.gov"),
-            ( "Councilmember Lily Bao", "Plano", "lilybao@plano.gov"),
+        "Houston" : [
+            ( "Mayor Sylvester Turner", "Houston", "mayor@houstontx.gov"),
+            ( "Councilmember Amy Peck", "Houston", "districta@houstontx.gov"),
+            ( "Councilmember Jerry Davis", "Houston", "districtb@houstontx.gov"),
+            ( "Councilmember Abbie Kamin", "Houston", "districtc@houstontx.gov"),
+            ( "Councilmember Carolyn Evans-Shabazz", "Houston", "districtd@houstontx.gov"),
+            ( "Councilmember Dave Martin", "Houston", "districte@houstontx.gov"),
+            ( "Councilmember Tiffany Thomas", "Houston", "districtf@houstontx.gov"),
+            ( "Councilmember Greg Travis", "Houston", "districtg@houstontx.gov"),
+            ( "Councilmember Karla Cisneros", "Houston", "districth@houstontx.gov"),
+            ( "Councilmember Robert Gallegos", "Houston", "districti@houstontx.gov"),
+            ( "Councilmember Edward Pollard", "Houston", "districtj@houstontx.gov"),
+            ( "Councilmember Martha Castex-Tatum", "Houston", "districtk@houstontx.gov"),
         ],
         "Dallas" : [
             ( "Mayor Pro Tem Adam Medrano", "Dallas", "adam.medrano@dallascityhall.com"),
@@ -184,6 +193,16 @@ mailing_list = {
             ( "Councilmember Paula Blackmon", "Dallas", "District9@DallasCityHall.com"),
             ( "Councilmember Lee M. Kleinman", "Dallas", "sophia.figueroa@dallascityhall.com"),
             ( "Councilmember Cara Mendelsohn", "Dallas", "cara.mendelsohn@dallascityhall.com"),
+        ],
+        "Plano" : [
+            ( "Mayor Harry LaRosiliere", "Plano", "mayor@plano.gov"),
+            ( "Mayor Pro Tem Kayci Prince", "Plano", "kayciprince@plano.gov"),
+            ( "Deputy Mayor Pro Tem Anthony Ricciardelli", "Plano", "aricciardelli@plano.gov"),
+            ( "Councilmember Maria Tu", "Plano", "mariatu@plano.gov"),
+            ( "Councilmember Rick Grady", "Plano", "rickgrady@plano.gov"),
+            ( "Councilmember Shelby Williams", "Plano", "shelbywilliams@plano.gov"),
+            ( "Councilmember Rick Smith", "Plano", "ricksmith@plano.gov"),
+            ( "Councilmember Lily Bao", "Plano", "lilybao@plano.gov"),
         ],
     },
     "Georgia" : {
