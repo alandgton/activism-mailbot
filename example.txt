@@ -1,0 +1,7 @@
+this is an example message that mailbot can send out to 170+ elected officials across the nation.
+please do not include a header (i.e. Dear Councilmember _________) because mailbot will create and include this for you in each email.
+
+once you are finished talking about the need for police reform, the recent abuses of human rights, and anything else on your mind, please attach a closing at the bottom like so:
+
+Sincerely,
+Your Full Name Here
