@@ -100,6 +100,44 @@ mailing_list = {
             ( "Councilmember Linea Palmisano", "Minneapolis", "Linea.Palmisano@minneapolismn.gov"),
         ],
     },
+    "Missouri" : {
+        "St. Louis County" : [
+            ( "Mayor Lyda Krewson", "St. Louis", "krewsonl@stlouis-mo.gov"),
+            ( "Senator Jill Schupp", "St. Louis", "jill.schupp@senate.mo.gov"),
+            ( "Representative Tracy McCreery", "St. Louis", "Tracy.McCreery@house.mo.gov"),
+            ( "Representative Tommie Pierson", "St. Louis", "Tommie.PiersonJr@house.mo.gov"),
+            ( "Representative Kevin Windham", "St. Louis", "Kevin.Windhamjr@house.mo.gov"),
+            ( "Representative Sarah Unsicker", "St. Louis", "Sarah.Unsicker@house.mo.gov"),
+        ],
+        "Kansas City" : [
+            ( "Representative Keri Ingle", "Kansas City", "Keri.Ingle@house.mo.gov"),
+            ( "Representative Ingrid Burnett", "Kansas City", "Ingrid.Burnett@house.mo.gov"),
+            ( "Representative Barbara Washington", "Kansas City", "Barbara.Washington@house.mo.gov"),
+        ],
+        "Springfield" : [
+            ( "Representative Crystal Quade", "Springfield", "Crystal.Quade@house.mo.gov"),
+            ( "Representative Elijah Haah", "Springfield", "Elijah.Haahr@house.mo.gov"),
+        ],
+        "Greene County" : [
+            ( "Representative Sonya Anderson", "Greene County", "Sonya.Anderson@house.mo.gov"),
+            ( "Representative Jeffrey Messenger", "Greene County", "Jeff.Messenger@house.mo.gov"),
+        ],
+        "St. Charles County" : [
+            ( "Representative John Wiemann", "St. Charles County", "John.Wiemann@house.mo.gov"),
+        ],
+        "Jefferson County" : [
+            ( "Representative Rob Vescovo", "Jefferson County", "Rob.Vescovo@house.mo.gov"),
+        ],
+        "Pulaski County" : [
+            ( "Representative Steve Lynch", "Pulaski County", "Steve.Lynch@house.mo.gov"),
+        ],
+        "Daviess, DeKalb, Gentry, and Harrison Counties" : [
+            ( "Representative J. Eggleston", "Missouri", "J.Eggleston@house.mo.gov"),
+        ],
+        "Washington, Wayne, Reynolds, and Iron Counties" : [
+            ( "Representative Chris Dinkins", "Missouri", "Chris.Dinkins@house.mo.gov"),
+        ],
+    },
     "New York" : {
         "NYC" : [
             ( "Mayor Bill de Blasio", "NYC", "bdeblasio@cityhall.nyc.gov"),
