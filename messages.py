@@ -21,6 +21,10 @@ def gen_greeting(person):
     s = ["Dear", "Hello", "Greetings", "Hi"]
     return "%s %s,\n\n" % (random.choice(s), person)
 
+def attach_greeting(person, body):
+    s = ["Dear", "Hello", "Greetings", "Hi"]
+    return "%s %s,\n\n%s" % (random.choice(s), person, body)
+
 # Generates the first sentence of the email. Assumes person is a constituent of the city provided.
 def gen_intro(location):
     mess = ["in shambles", "in ruins", "a disaster", "a mess"]

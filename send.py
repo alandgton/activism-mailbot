@@ -29,7 +29,24 @@ def prompt_email():
     print("\nWhat would you like the subject (title) of your email to be?\n")
     subject = input("Type here and press enter (if blank, a random one will be generated): ")
     print_barrier()
-    return subject
+    print("\nMailbot can write unique emails addressed personally to each lawmaker.")
+    print("However, if you would like to write your own message, please save it in a .txt file. The easiest way to do this is to just write your message in example.txt.")
+    while True:
+        response = input("Would you like mailbot to write emails for you? (y/n): ")
+        if response == 'n':
+            while True:
+                filename = input("What is the name of your txt file?: ")
+                with open(filename, 'r', encoding = 'utf-8-sig') as fd:
+                    message = fd.read()
+                break
+            break
+        elif response == 'y':
+            message = ""
+            break
+        else:
+            print("Please answer with y or n.")
+    
+    return subject, message
 
 
 def prompt_recipients():
@@ -99,7 +116,7 @@ smtp_server = "smtp.gmail.com"
 
 recv = prompt_recipients()
 print("\nSending emails to %d state/local officials...\n" % (len(recv)))
-subject = prompt_email()
+subject, message = prompt_email()
 src_name, src_email, password = prompt_login()
 
 while True:
@@ -120,8 +137,8 @@ while True:
                 msg['Subject'] = subject if subject else messages.gen_subject()
                 msg['From'] = src_email
                 msg['To'] = dst_email
-                
-                body = messages.gen_body(src_name, dst_name, location)
+
+                body = messages.attach_greeting(dst_name, message) if message else messages.gen_body(src_name, dst_name, location)
                 msg.set_content(body)
                 print(msg.as_string())
 
