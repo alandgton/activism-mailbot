@@ -33,7 +33,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - Mac Users: you may need to install certificates for SSL to work
 	- ⌘ + space, search for a file named "Install Certificates.command"
 	- double-click the resulting file
-	- Read more here: [https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
+	- [Read more here](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
 
 - Turn [_Allow less secure apps_  to  _ON_](https://myaccount.google.com/lesssecureapps) for your gmail account.
 	- Be aware that this makes it easier for others to gain access to your account.
