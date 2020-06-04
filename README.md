@@ -1,6 +1,6 @@
 # Activism Mail Bot
 
-In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/)) to a list of 170 elected US officials.
+In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/)) to a list of 188 elected US officials.
 
 The script sends a **unique message to each lawmaker** by varying sentence structures and switching out nouns, verbs, adverbs, and adjectives with synonyms.
 
@@ -44,7 +44,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- Choose which officials you would like to send emails to
 		- Enter the number corresponding to the state of your choice
 			- Enter 0 to select all and send emails to everyone on the mailing list
-				- At the time of writing, there are 170 people on the list
+				- At the time of writing, there are 188 people on the list
 			- Next, choose which city officials you would like to send emails to
 				- Enter the number corresponding to the city you chose
 					- Enter 0 to select all cities
@@ -65,12 +65,11 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- Enter your gmail
 	- Enter your gmail password
 		- i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid
-- At the time of writing, this bot sends uniquely generated emails to 170 elected officials across the nation!
-	- Please add more recipients!
-		- [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
-	- thank you for your time, we did some good work :^)
-	- activism++
-	- Please remember to switch `Allow less secure apps` to OFF.
+- Please add more recipients!
+	- [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
+- thank you for your time, we did some good work :^)
+- activism++
+- **Please remember to switch `Allow less secure apps` to OFF.**
 
 ## Footnote
 
