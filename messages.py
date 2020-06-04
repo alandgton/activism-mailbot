@@ -66,6 +66,7 @@ def gen_rhetorical_questions():
             "Will you develop a plan for defunding law enforcement, and reallocate these funds to critical social services?",
             "Will you protect and expand current investment in community-led health and safety strategies, instead of investing in police?",
             "What have you done to compel local law enforcement agencies to immediately cease enacting violence on community members?",
+            "How are you working on eliminating qualified immunity for police officers that has allowed too many incidents of police misconduct to disappear without consequence?",
             
     ]
     
