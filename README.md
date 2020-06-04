@@ -28,7 +28,7 @@ TODO List:
 	- Mac Users: you can double-click the `install-python3-osx` file instead
 	- Windows Users: TBD
 
-- Mac Users: you'll need to install certificates for SSL to work
+- Mac Users: you may need to install certificates for SSL to work
 	- ⌘ + space, search for a file named "Install Certificates.command"
 	- double-click the resulting file
 	- Read more here: [https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
@@ -40,11 +40,13 @@ TODO List:
 	- Make sure you are in the `activism-mail-bot` directory
 		- If you aren't, use the command `cd activism-mail-bot/`
 	- Choose which state officials you would like to send emails to
-		- If blank, mailbot will send emails to all officials in the mailing list
-		- Enter the number corresponding to the state you choose
-			- Choose which county officials you would like to send emails to
-				- If blank, mailbot will send emails to all officials in the state chosen above
+		- Enter the number corresponding to the state your choice
+			- Enter 0 to select all and send emails to everyone on the mailing list
+			- Choose which city officials you would like to send emails to
 				- Enter the number corresponding to the county you choose
+					- Enter 0 to select all cities
+				- Enter blank (nothing) when done selecting cities
+			- Enter blank (nothing) when done selecting states
 	- Enter the subject (title) of your emails.
 		- If blank, mailbot will randomly generate a spicy title for you
 	- Enter your full name

@@ -130,7 +130,7 @@ mailing_list = {
             ( "Commissioner Richard Ross", "Philadelphia", "police.commissioner@phila.gov"),
         ],
     },
-    "Washington DC" : {
+    "District of Columbia" : {
         "DC" : [
             ( "Mayor Muriel Bowser", "DC", "eom@dc.gov"),
             ( "Chairman Phil Mendelson", "DC", "pmendelson@dccouncil.us"),
@@ -222,11 +222,15 @@ def get_state(state):
         recv.extend(mailing_list[state][county])
     return recv
 
-def get_county(state, county):
+def get_city(state, county):
     return mailing_list[state][county]
 
 def get_states():
-    return mailing_list.keys()
+    lst = ["Select All"]
+    lst.extend(mailing_list.keys())
+    return lst
 
-def get_counties(state):
-    return mailing_list[state].keys()
+def get_cities(state):
+    lst = ["Select All"]
+    lst.extend(mailing_list[state].keys())
+    return lst
