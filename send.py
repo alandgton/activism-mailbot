@@ -5,10 +5,18 @@ from email.message import EmailMessage
 
 def prompt_login():
     print("\n")
-    src_name = input("Type your name and press enter: ")
-    src_email = input("Type your email and press enter: ")
+    name = ""
+    # Validate name is not blank
+    while True:
+        if not name:
+            name = input("Type your name and press enter: ")
+        else:
+            break
+
+    # Maybe add some validation for "@gmail" suffix
+    email = input("Type your email and press enter: ")
     password = getpass("Type your password and press enter: ")
-    return src_name, src_email, password
+    return name, email, password
 
 
 
