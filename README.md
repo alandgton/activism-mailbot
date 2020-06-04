@@ -40,9 +40,9 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- After running the script, you should switch this back OFF.
 	- Your name, gmail, and password aren't being stored on a server anywhere, this script is run from your own computer!
 - Run `python3 send.py`
-	- Make sure you are in the `activism-mail-bot` directory
+	1. Make sure you are in the `activism-mail-bot` directory
 		- If you aren't, use the command `cd activism-mail-bot/`
-	- Choose which officials you would like to send emails to
+	2. Choose which officials you would like to send emails to
 		- Enter the number corresponding to the state of your choice
 			- Enter 0 to select all and send emails to everyone on the mailing list
 				- At the time of writing, there are 188 people on the list
@@ -52,9 +52,9 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 				- Enter blank (nothing) when finished selecting cities
 			- Enter blank (nothing) when finished selecting states
 		- NOTE: some city councilmembers may ask for your address to confirm that you are their constituent
-	- Enter the subject (title) of your emails.
+	3. Enter the subject (title) of your emails.
 		- If blank, mailbot will randomly generate a spicy title for you
-	- Would you like to write your own email or have mailbot do it for you?
+	4. Would you like to write your own email or have mailbot do it for you?
 		- If you want mailbot to write the emails, answer y.
 		- Else if you have your own email message, answer n.
 			- Mailbot will now read from a .txt file
@@ -62,9 +62,9 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 				- Easiest way: edit the contents of `example.txt`
 			- Tell mailbot the name of your .txt file
 				- Example: `example.txt`
-	- Enter your full name
-	- Enter your gmail
-	- Enter your gmail password
+	5. Enter your full name
+	6. Enter your gmail
+	7. Enter your gmail password
 		- i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid
 - Please add more recipients!
 	- [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
