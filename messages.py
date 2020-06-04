@@ -9,7 +9,7 @@ import random
 
 # Randomly generates the subject header of the email
 def gen_subject():
-    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen", "The Need for Law Enforcement Reform", "Reforms to Law Enforcement Needed"]
+    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen", "The Need for Law Enforcement Reform", "Reforms to Law Enforcement Needed", "Your Duty as a Public Servant"]
     return random.choice(s)
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
@@ -21,6 +21,7 @@ def gen_greeting(person):
     s = ["Dear", "Hello", "Greetings", "Hi"]
     return "%s %s,\n\n" % (random.choice(s), person)
 
+# Prepends greeting statement to a user-generated message
 def attach_greeting(person, body):
     s = ["Dear", "Hello", "Greetings", "Hi"]
     return "%s %s,\n\n%s" % (random.choice(s), person, body)
@@ -44,9 +45,13 @@ def gen_intro(location):
 def gen_curiosity():
     verb = ["know", "inquire", "ask"]
     noun = ["safeguards", "policies", "provisions"]
+    work = ["commitments", "efforts", "actions"]
     crime = ["incidents of racism", "violations of human rights", "occurrences of racism", "exploitations of human rights"]
 
-    return "I would like to %s what %s our police departments have in place to prevent %s by officers, and what commitments you will make to defund the police and protect black lives. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
+    if random.randint(0,100) % 2:
+        return "As a public servant, what %s will you make to protect black lives? In addition, what %s are in place to prevent %s by officers? %s" % (random.choice(work), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
+    else:
+        return "I would like to %s what %s our police departments have in place to prevent %s by officers, and what %s you will make to protect black lives. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), random.choice(work), gen_rhetorical_questions())
 
 #{NOTE} I might want to change the ones that just say "incidents of racism" to stronger statements
 
