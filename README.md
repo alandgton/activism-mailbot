@@ -29,7 +29,7 @@ TODO List:
 	- Windows Users: TBD
 
 - Mac Users: you'll need to install certificates for SSL to work
-	- ⌘ + space, search for Install Certificates.command
+	- ⌘ + space, search for a file named "Install Certificates.command"
 	- double-click the resulting file
 	- Read more here: [https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
 
