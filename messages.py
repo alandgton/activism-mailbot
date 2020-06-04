@@ -2,6 +2,9 @@ import random
 
 """
     Template credit: nomoreracistcops.github.io
+    Additional demands from:
+    https://secure.everyaction.com/eR7GA7oz70GL8doBq19LrA2
+    https://docs.google.com/document/d/1V2l7bdg6QeqtqVWDr5HFzVzieiT0vg6jZASN6syBNyY/edit
 """
 
 # Randomly generates the subject header of the email
@@ -39,18 +42,26 @@ def gen_curiosity():
     noun = ["safeguards", "policies", "provisions"]
     crime = ["incidents of racism", "violations of human rights", "occurrences of racism", "exploitations of human rights"]
 
-    return "I would like to %s what %s our police departments have in place to prevent %s by officers. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
+    return "I would like to %s what %s our police departments have in place to prevent %s by officers, and what commitments you will make to defund the police and protect black lives. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
+
+#{NOTE} I might want to change the ones that just say "incidents of racism" to stronger statements
 
 # Randomly generates a relentless stream of hard-hitting rhetorical questions
 def gen_rhetorical_questions():
     q = [
             "Are all officers required to wear body cameras to record their responses to calls on video?",
             "Do departments perform any form of anti-racism training for officers?",
-            "Are new recruits screened in any way to prevent the hiring of racists, for instance: looking at their social media posts?",
             "How do internal affairs investigate and respond to reports of discrimination, racism, and unjust brutality?",
             "How can the general public be ensured that incidences of racist violence by police are not simply swept under the rug? In particular, how can I be sure that police officers are held accountable for their actions?",
+            "Have you pledged to never again support increased police funding?",
+            "Will you develop a plan for defunding law enforcement, and reallocate these funds to critical social services?",
+            "Will you protect and expand current investment in community-led health and safety strategies, instead of investing in police?",
+            "What have you done to compel local law enforcement agencies to immediately cease enacting violence on community members?",
+            
     ]
+    
     return ' '.join(random.sample(q, k=len(q)))
+
 
 def gen_conclusion(name):
     noun = ["safeguards", "policies", "provisions"]
@@ -60,9 +71,9 @@ def gen_conclusion(name):
 
 def gen_action():
     bank = [
-        "The status quo is failing us. Reforms to law enforcement agencies must be enacted.",
-        "The current system isn't working and changes must be made to how law is enforced in this country.",
-        "This issue is nothing new. The frequency of these incidents suggest that reforms must be made to law enforcement agencies across the nation.",
+        "The status quo is failing us. Reforms to law enforcement agencies, along with the redirection of funds, must be enacted.",
+        "The current system isn't working and changes must be made to how law is enforced and funded in this country.",
+        "This issue is nothing new. The frequency of these incidents suggest that law enforcement is a force of violence, not public safety, in our country.",
     ]
 
     return random.choice(bank)
@@ -79,6 +90,8 @@ def gen_interests():
             "support for victims of domestic abuse and addiction,",
             "public education,",
             "scientific research,",
+            "increased social services for formerly incarcerated residents",
+            "increased funding for nutrition and food access programs"
     ]
     return "Services that I would rather see funded include: %s to name only a few." % (' '.join(random.sample(i, k=len(i))))
 
