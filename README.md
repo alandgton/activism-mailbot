@@ -49,6 +49,14 @@ TODO List:
 			- Enter blank (nothing) when done selecting states
 	- Enter the subject (title) of your emails.
 		- If blank, mailbot will randomly generate a spicy title for you
+	- Do you want mailbot to deliver an email that you have written or do you want mailbot to create unique, personally-addressed emails for you?
+		- If you want mailbot to write emails for you, answer y.
+		- Else if you have your own email message, answer n.
+			- Mailbot will read from a .txt file
+			- Please write your own email in a .txt file
+				- Easiest way: edit the contents of `example.txt`
+			- Tell mailbot the name of your .txt file
+				- Example: `example.txt`
 	- Enter your full name
 	- Enter your gmail
 	- Enter your gmail password
