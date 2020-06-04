@@ -25,10 +25,10 @@ def attach_greeting(person, body):
     s = ["Dear", "Hello", "Greetings", "Hi"]
     return "%s %s,\n\n%s" % (random.choice(s), person, body)
 
-# Generates the first sentence of the email. Assumes person is a constituent of the city provided.
+# Generates the first sentence of the email.
 def gen_intro(location):
     mess = ["in shambles", "in ruins", "a disaster", "a mess"]
-    nominer = ["As a concerned resident of %s," % (location), "I am a resident of %s and" % (location), "As a concerned constituent,", "I am one of your constituents and"]
+    nominer = ["As a concerned resident of the US,", "I am a resident of the United States and", "As a concerned American,"]
     contact = ["getting in touch", "reaching out to you", "contacting you", "sending you this message"]
     adverb = ["deeply", "very", "greatly", "extremely", "especially", "immensely"]
     concern = ["troubled", "concerned", "disturbed"]
