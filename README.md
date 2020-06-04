@@ -39,21 +39,22 @@ TODO List:
 - Run `python3 send.py`
 	- Make sure you are in the `activism-mail-bot` directory
 		- If you aren't, use the command `cd activism-mail-bot/`
-	- Choose which state officials you would like to send emails to
-		- Enter the number corresponding to the state your choice
+	- Choose which officials you would like to send emails to
+		- Enter the number corresponding to the state of your choice
 			- Enter 0 to select all and send emails to everyone on the mailing list
 				- At the time of writing, there are 170 people on the list
-			- Choose which city officials you would like to send emails to
-				- Enter the number corresponding to the county you choose
+			- Next, choose which city officials you would like to send emails to
+				- Enter the number corresponding to the city you chose
 					- Enter 0 to select all cities
-				- Enter blank (nothing) when done selecting cities
-			- Enter blank (nothing) when done selecting states
+				- Enter blank (nothing) when finished selecting cities
+			- Enter blank (nothing) when finished selecting states
+		- NOTE: some city councilmembers may ask for your address to confirm that you are their constituent
 	- Enter the subject (title) of your emails.
 		- If blank, mailbot will randomly generate a spicy title for you
-	- Do you want mailbot to deliver an email that you have written or do you want mailbot to create unique, personally-addressed emails for you?
-		- If you want mailbot to write emails for you, answer y.
+	- Would you like to write your own email or have mailbot do it for you?
+		- If you want mailbot to write the emails, answer y.
 		- Else if you have your own email message, answer n.
-			- Mailbot will read from a .txt file
+			- Mailbot will now read from a .txt file
 			- Please write your own email in a .txt file
 				- Easiest way: edit the contents of `example.txt`
 			- Tell mailbot the name of your .txt file
@@ -63,7 +64,8 @@ TODO List:
 	- Enter your gmail password
 		- i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid
 - At the time of writing, this bot sends uniquely generated emails to 170 elected officials across the nation!
-	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
+	- Please add more recipients!
+		- [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
 	- thank you for your time, we did some good work :^)
 	- activism++
 	- Please remember to switch `Allow less secure apps` to OFF.
