@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import messages, recipients, smtplib, ssl, states, time
+import messages, recipients, smtplib, ssl, states, sys, time
 from getpass import getpass
 from email.message import EmailMessage
 
@@ -30,7 +30,7 @@ def prompt_email():
     subject = input("Type here and press enter (if blank, a random one will be generated): ")
     print_barrier()
     print("\nMailbot can write unique emails addressed personally to each lawmaker.")
-    print("However, if you would like to write your own message, please save it in a .txt file. The easiest way to do this is to just write your message in example.txt.")
+    print("However, if you would like to write your own message, please save it in a .txt file. The easiest way to do this is to just write your message in example.txt.\n")
     while True:
         response = input("Would you like mailbot to write emails for you? (y/n): ")
         if response == 'n':
@@ -108,6 +108,12 @@ def prompt_recipients():
         else:
             print("Invalid index")
     print_barrier()
+
+    if not recv:
+        sys.exit("ABORT: no recipients selected.")
+
+    print("\nSending emails to %d state/local officials...\n" % (len(recv)))
+
     return recv
 
 
@@ -115,7 +121,6 @@ port = 465 # standard port for SMTP over SSL
 smtp_server = "smtp.gmail.com"
 
 recv = prompt_recipients()
-print("\nSending emails to %d state/local officials...\n" % (len(recv)))
 subject, message = prompt_email()
 src_name, src_email, password = prompt_login()
 
