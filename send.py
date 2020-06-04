@@ -3,17 +3,52 @@ import messages, recipients, smtplib, ssl, time
 from getpass import getpass
 from email.message import EmailMessage
 
+def prompt_login():
+    print("\n")
+    src_name = input("Type your name and press enter: ")
+    src_email = input("Type your email and press enter: ")
+    password = getpass("Type your password and press enter: ")
+    return src_name, src_email, password
+
+
+
+def prompt_email():
+    print("\nWhat would you like the subject (title) of your email to be?")
+    subject = input("Type here and press enter (if blank, a random one will be generated): ")
+    return subject
+
+
+def prompt_recipients():
+    print("\nWhich state officials do you want to send emails to?\n")
+    state_options = { v:k for v,k in enumerate(recipients.get_states()) }
+    for idx, opt in state_options.items():
+        print(idx, "->", opt)
+    
+    state_idx = input("\nType the number corresponding to the state here (if blank, all states will be used): ")
+    
+    if state_idx:
+        county_options = { v:k for v,k in enumerate(recipients.get_counties(state_options[int(state_idx)])) }
+        print("\nWhich county officials do you want to send emails to?\n")
+        for idx, opt in county_options.items():
+            print(idx, "->", opt)
+        county_idx = input("\nType the number corresponding to the county here (if blank, all counties will be used): ")
+    
+        if county_idx:
+            recv = recipients.get_county(state_options[int(state_idx)], county_options[int(county_idx)])
+        else:
+            recv = recipients.get_state(state_options[int(state_idx)])
+    
+    else:
+        recv = recipients.get_all()
+    return recv
+
+
 port = 465 # standard port for SMTP over SSL
 smtp_server = "smtp.gmail.com"
 
-src_name = input("Type your name and press enter: ")
-src_email = input("Type your email and press enter: ")
-password = getpass("Type your password and press enter: ")
-
-print("\nWhat would you like the subject (title) of your email to be?")
-subject = input("Type here and press enter (a random one will be generated if blank): ")
-
-recv = recipients.gen_recipients()
+recv = prompt_recipients()
+subject = prompt_email()
+src_name, src_email, password = prompt_login()
 
 while True:
     try:

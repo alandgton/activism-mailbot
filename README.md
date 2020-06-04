@@ -39,10 +39,18 @@ TODO List:
 - Run `python3 send.py`
 	- Make sure you are in the `activism-mail-bot` directory
 		- If you aren't, use the command `cd activism-mail-bot/`
+	- Choose which state officials you would like to send emails to
+		- If blank, mailbot will send emails to all officials in the mailing list
+		- Enter the number corresponding to the state you choose
+			- Choose which county officials you would like to send emails to
+				- If blank, mailbot will send emails to all officials in the state chosen above
+				- Enter the number corresponding to the county you choose
+	- Enter the subject (title) of your emails.
+		- If blank, mailbot will randomly generate a spicy title for you
 	- Enter your full name
 	- Enter your gmail
-	- Enter your gmail password (i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid)
-	- Enter the subject (title) of your emails. You can leave this blank if you want mailbot to randomly generate titles for you.
+	- Enter your gmail password
+		- i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid
 - At the time of writing, this bot sends uniquely generated emails to 159 elected officials across the nation!
 	- Please add more recipients! Create a PR or let me know if you would like to add to the default list
 	- thank you for your time, we did some good work :^)
