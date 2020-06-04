@@ -1,8 +1,8 @@
 # If you would like to add to this list, please let me know at alandgton@gmail.com
 # Currently mayors and city council members and police commissioners
 
-# { state0 -> [(name, city, level of govt, email), (contact1) ..., (contactn)], state1 -> [(contact0), ..., (contactn)], ..., staten -> [(contact0), ..., (contactn)] }
-# level of govt = LOCAL or STATE
+# a dictionary that maps states to dictionaries that map counties to contacts
+# contacts are tuples (name, county, email)
 mailing_list = {
     "California" : {
         "Los Angeles" : [
