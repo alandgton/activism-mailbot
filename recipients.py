@@ -4,6 +4,28 @@
 # a dictionary that maps states to dictionaries that map counties to contacts
 # contacts are tuples (name, county, email)
 mailing_list = {
+    "Arizona" : {
+        "Phoenix" : [
+            ( "Mayor Kate Gallego", "Phoenix", "mayor.gallego@phoenix.gov"),
+            ( "Vice Mayor Betty Guardado", "Phoenix", "council.district.5@phoenix.gov"),
+            ( "Councilmember Thelda Williams", "Phoenix", "council.district.1@phoenix.gov"),
+            ( "Councilman Jim Waring", "Phoenix", "council.district.2@phoenix.gov"),
+            ( "Councilmember Debra Stark", "Phoenix", "council.district.3@phoenix.gov"),
+            ( "Councilmember Laura Pastor", "Phoenix", "council.district.4@phoenix.gov"),
+            ( "Councilmember Sal DiCiccio", "Phoenix", "council.district.6@phoenix.gov"),
+            ( "Councilmember Michael Nowakowski", "Phoenix", "council.district.7@phoenix.gov"),
+            ( "Councilmember Carlos Garcia", "Phoenix", "council.district.8@phoenix.gov"),
+        ],
+        "Tuscon" : [
+            ( "Mayor Regina Romero", "Tuscon", "Mayor.Romero@tucsonaz.gov"),
+            ( "Vice Mayor Steve Kozachik", "Tuscon", "ward6@tucsonaz.gov"),
+            ( "Councilmember Lane Santa Cruz", "Tuscon", "ward1@tucsonaz.gov"),
+            ( "Councilmember Paul Cunningham", "Tuscon", "ward2@tucsonaz.gov"),
+            ( "Councilmember Paul Durham", "Tuscon", "ward3@tucsonaz.gov"),
+            ( "Councilmember Nikki Lee", "Tuscon", "ward4@tucsonaz.gov"),
+            ( "Councilmember Richard Fimbres", "Tuscon", "ward5@tucsonaz.gov"),
+        ],
+    },
     "California" : {
         "Alameda" : [
             ( "Mayor Marilyn Ezzy Ashcraft", "Alameda", "mezzyashcraft@alamedaca.gov"),
@@ -241,6 +263,28 @@ mailing_list = {
             ( "Representative Chris Dinkins", "Missouri", "Chris.Dinkins@house.mo.gov"),
         ],
     },
+    "Nevada" : {
+        "Las Vegas" : [
+            ( "Mayor Carolyn Goodman", "Las Vegas", "cgoodman@lasvegasnevada.gov"),
+            ( "Councilman Brian Knudsen", "Las Vegas", "ward1@lasvegasnevada.gov"),
+            ( "Councilwoman Victoria Seaman", "Las Vegas", "ward2@lasvegasnevada.gov"),
+            ( "Councilwoman Olivia Diaz", "Las Vegas", "ward3@lasvegasnevada.gov"),
+            ( "Councilman Stavros S. Anthony", "Las Vegas", "ward4newsletter@lasvegasnevada.gov"),
+            ( "Councilman Cedric Crear", "Las Vegas", "ccrear@lasvegasnevada.gov"),
+            ( "Councilwoman Michele Fiore", "Las Vegas", "mfiore@lasvegasnevada.gov"),
+            ( "City Manager Scott D. Adams", "Las Vegas", "sadams@lasvegasnevada.gov"),
+        ],
+        "Reno" : [
+            ( "Mayor Hillary Schieve", "Reno", "mayor@reno.gov"),
+            ( "Rick Caldeira", "Reno", "caldeirar@reno.gov"),
+            ( "Councilmember Devon Reese", "Reno", "reesed@reno.gov"),
+            ( "Councilmember Jenny Brekhus", "Reno", "brekhusj@reno.gov"),
+            ( "Councilmember Naomi Duerr", "Reno", "duerrn@reno.gov"),
+            ( "Councilmember Oscar Delgado", "Reno", "delgadoo@reno.gov"),
+            ( "Councilmember Bonnie Weber", "Reno", "weberb@reno.gov"),
+            ( "Councilmember Neoma Jardon", "Reno", "jardonn@reno.gov"),
+        ],
+    },
     "New York" : {
         "NYC" : [
             ( "Mayor Bill de Blasio", "NYC", "bdeblasio@cityhall.nyc.gov"),
@@ -286,6 +330,9 @@ mailing_list = {
         ],
     },
     "Texas" : {
+        "Austin" : [
+            ( "Mayor Steve Adler", "Austin", "steve.adler@austintexas.gov"),
+        ],
         "Dallas" : [
             ( "Mayor Pro Tem Adam Medrano", "Dallas", "adam.medrano@dallascityhall.com"),
             ( "Deputy Mayor Pro Tem B. Adam McGough", "Dallas", "adam.mcgough@dallascityhall.com"),
