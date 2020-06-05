@@ -5,6 +5,28 @@
 # contacts are tuples (name, county, email)
 mailing_list = {
     "California" : {
+        "Alameda" : [
+            ( "Mayor Marilyn Ezzy Ashcraft", "Alameda", "mezzyashcraft@alamedaca.gov"),
+            ( "Vice Mayor John Knox White", "Alameda", "jknoxwhite@alamedaca.gov"),
+            ( "Councilmember Tony Daysog", "Alameda", "tdaysog@alamedaca.gov"),
+            ( "Councilmember Jim Oddie", "Alameda", "joddie@alamedaca.gov"),
+            ( "Councilmember Malia Vella", "Alameda", "mvella@alamedaca.gov"),
+            ( "District Attorney Nancy E. O’Malley", "Alameda", "info@alcoda.org"),
+        ],
+        "Bakersfield" : [
+            ( "Mayor Karen Goh", "Bakersfield", "Mayor@bakersfieldcity.us"),
+            ( "Councilmembers", "Bakersfield", "City_Council@bakersfieldcity.us"),
+        ],
+        "Fresno" : [
+            ( "Mayor Lee Brand", "Fresno", "lee.brand@fresno.gov"),
+            ( "Councilmember Esmeralda Soria", "Fresno", "esmeralda.soria@fresno.gov"),
+            ( "Councilmember Miguel Arias", "Fresno", "miguel.arias@fresno.gov"),
+            ( "Councilmember Paul Caprioglio", "Fresno", "paul.capriogolio@fresno.gov"),
+            ( "Councilmember Luis Chavez", "Fresno", "luis.chavez@fresno.gov"),
+            ( "Councilmember Garry Bredefeld", "Fresno", "garry.bredefeld@fresno.gov"),
+            ( "Councilmember Nelson Esparza", "Fresno", "nelson.esparza@fresno.gov"),
+            ( "City Manager Wilma Quan", "Fresno", "wilma.quan@fresno.gov"),
+        ],
         "Los Angeles" : [
             ( "Mayor Eric Garcetti", "LA", "mayor.helpdesk@lacity.org" ),
             ( "City Attorney Mike Feuer", "LA", "mayor.garcetti@lacity.org" ),
@@ -14,6 +36,33 @@ mailing_list = {
             ( "Councilmember Bob Blumenfield", "LA", "councilmember.blumenfield@lacity.org"),
             ( "Councilmember David E. Ryu", "LA", "david.ryu@lacity.org"),
             ( "LA Board of Police Commissioners", "LA", "policecommission@lapd.online"),
+        ],
+        "Orange County" : [
+            ( "Supervisor Michelle Steel", "OC", "Michelle.Steel@ocgov.com"),
+            ( "Supervisor Andrew Do", "OC", "Andrew.Do@ocgov.com"),
+            ( "Supervisor Donald P. Wagner", "OC", "Donald.Wagner@ocgov.com"),
+            ( "Supervisor Doug Chaffee", "OC", "Fourth.District@ocgov.com"),
+            ( "Supervisor Lisa Bartlett", "OC", "Lisa.Bartlett@ocgov.com"),
+            ( "Todd Spitzer", "OC", "media@da.ocgov.com"),
+        ],
+        "Sacramento" : [
+            ( "Mayor Darrell Steinberg", "Sacramento", "MayorSteinberg@cityofsacramento.org"),
+            ( "Vice Mayor Jeff Harris", "Sacramento", "jsharris@cityofsacramento.org"),
+            ( "David Gonsalves", "Sacramento", "dgonsalves@cityofsacramento.org"),
+            ( "Jocelyn Navarro", "Sacramento", "jonavarro@cityofsacramento.org"),
+            ( "Councilmember Angelique Ashby", "Sacramento", "aashby@cityofsacramento.org"),
+            ( "Councilmember Allen Wayne Warren", "Sacramento", "awarren@cityofsacramento.org"),
+            ( "Councilmember Steve Hansen", "Sacramento", "SHansen@cityofsacramento.org"),
+            ( "Councilmember Jay Schenirer", "Sacramento", "jschenirer@cityofsacramento.org"),
+            ( "Councilmember Rick Jennings", "Sacramento", "rjennings@cityofsacramento.org"),
+            ( "Councilmember Larry Carr", "Sacramento", "lcarr@cityofsacramento.org"),
+            ( "Supervisor Phil Serna", "Sacramento", "SupervisorSerna@saccounty.net"),
+            ( "Supervisor Patrick Kennedy", "Sacramento", "SupervisorKennedy@saccounty.net"),
+            ( "Mayor Cabaldon", "West Sacramento", "christopherc@cityofwestsacramento.org"),
+            ( "Councilmember Quirina Orozco", "West Sacramento", "quirinao@cityofwestsacramento.org"),
+            ( "Councilmember Chris Ledesma", "West Sacramento", "chrisl@cityofwestsacramento.org"),
+            ( "Councilmember Martha Guerrero", "West Sacramento", "mguerrero@cityofwestsacramento.org"),
+            ( "Mayor Pro Tem Beverly Sandeen", "West Sacramento", "beverlys@cityofwestsacramento.org"),
         ],
         "San Francisco" : [
             ( "Mayor London N. Breed", "SF", "MayorLondonBreed@sfgov.org"),
@@ -52,14 +101,6 @@ mailing_list = {
             ("Councilmember Karen Hardy", "Santa Clara", "khardy@santaclaraca.gov"),
             ("Councilmember Debbie Davis", "Santa Clara", "ddavis@santaclaraca.gov"),
             ("City Attorney Brian Doyle", "Santa Clara", "CityAttorney@santaclaraca.gov"),
-        ],
-        "Alameda" : [
-            ("Mayor Marilyn Ezzy Ashcraft", "Alameda", "mezzyashcraft@alamedaca.gov"),
-            ("Vice Mayor John Knox White", "Alameda", "jknoxwhite@alamedaca.gov"),
-            ("Councilmember Tony Daysog", "Alameda", "tdaysog@alamedaca.gov"),
-            ("Councilmember Jim Oddie", "Alameda", "joddie@alamedaca.gov"),
-            ("Councilmember Malia Vella", "Alameda", "mvella@alamedaca.gov"),
-            ("District Attorney Nancy E. O’Malley", "Alameda", "info@alcoda.org"),
         ],
     },
     "District of Columbia" : {
