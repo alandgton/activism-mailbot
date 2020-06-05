@@ -31,30 +31,33 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 		- Your name, gmail, and password aren't being stored on a server anywhere, this script is run from your own computer!
 
 ## Running the script
-2. Installation
-	- Option 1: Use Docker (**RECOMMENDED**)
-		1. Install docker-engine
-    			* [Mac or Windows](https://docs.docker.com/engine/install/)
-    			* [Linux](https://docs.docker.com/engine/install/ubuntu/)
-		2. Build docker image `docker build -t activism-mailbot .`
-		3. Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
-		4. Get container id `docker ps -aqf "name=activism-mailbot"`
-		5. Create an interactive terminal session into container `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
-		6. Run application `python send.py
-	- Option 2: Legacy Method
-		- [Install python3](https://realpython.com/installing-python/)
-		- Mac Users: you can double-click the `install-python3-osx` file instead
-		- Windows Users: TBD
+- Option 1: Use Docker (**RECOMMENDED**)
+	- Shoutout to [darrylbalderas](https://github.com/darrylbalderas) for setting this up!
+	- Install docker-engine
+    		* [Mac or Windows](https://docs.docker.com/engine/install/)
+   		* [Linux](https://docs.docker.com/engine/install/ubuntu/)
+	- Build docker image `docker build -t activism-mailbot .`
+	- Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
+	- Get container id `docker ps -aqf "name=activism-mailbot"`
+	- Create an interactive terminal session into container `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+	- Run application `python send.py
+	
+- Option 2: Legacy Method
+	- [Install python3](https://realpython.com/installing-python/)
+	- Mac Users: you can double-click the `install-python3-osx` file instead
+	- Windows Users: TBD
 
-		- Mac Users: you may need to install certificates for SSL to work
-			- ⌘ + space, search for a file named "Install Certificates.command"
-			- double-click the resulting file
-			- [Read more here](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
+	- Mac Users: you may need to install certificates for SSL to work
+		- ⌘ + space, search for a file named "Install Certificates.command"
+		- double-click the resulting file
+		- [Read more here](https://stackoverflow.com/questions/52805115/certificate-verify-failed-unable-to-get-local-issuer-certificate)
 
-		- Run `python3 send.py`
-			- Make sure you are in the `activism-mail-bot` directory
-			- If you aren't, use the command `cd activism-mail-bot/`
+	- Run `python3 send.py`
+		- Make sure you are in the `activism-mail-bot` directory
+		- If you aren't, use the command `cd activism-mail-bot/`
+		
 ## How to use mailbot
+
 1.  Choose which officials you would like to send emails to
 	- Enter the number corresponding to the state of your choice
 		- Enter 0 to select all and send emails to everyone on the mailing list
@@ -81,6 +84,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- i'm not logging this anywhere or anything, feel free to look at my code if you're paranoid
 	
 ## Final Steps
+
 - Please add more recipients! [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
 - thank you for your time, we did some good work :^)
 - activism++
