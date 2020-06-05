@@ -31,11 +31,12 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 	- Run the command: `./exec-docker`
-		- If that doesn't work, then execute the sequence of commands below:
+		- If that doesn't work, then execute the following sequence of commands:
 			- Build docker image: `docker build -t activism-mailbot .`
 			- Might need to remove the old container: `docker rm -f activism-mailbot`
 			- Create docker container in background: `docker run --name activism-mailbot -d activism-mailbot`
 			- Create an interactive terminal session: `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+
 	- Run application: `python send.py`
 	
 - Option 2: Legacy Method
