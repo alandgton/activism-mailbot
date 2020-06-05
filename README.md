@@ -72,6 +72,17 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - activism++
 - **Please remember to switch `Allow less secure apps` to OFF.**
 
+## Running application with Docker
+1. Install docker-engine
+    * [Mac or Windows](https://docs.docker.com/engine/install/)
+    * [Linux](https://docs.docker.com/engine/install/ubuntu/)
+1. Build docker image `docker build -t activism-mailbot .`
+2. Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
+3. Get container id `docker ps -aqf "name=activism-mailbot"`
+3. Create an interactive terminal session into container `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+4. Run application `python send.py`
+
+
 ## Footnote
 
 This is a critical time for the rights and freedoms that we cherish as American citizens. Check out this <a href="https://www.notion.so/Activism-Resources-and-Notes-5e095c3bc65845c8993598194bccfc1b" target="_blank">compilation of activism resources and notes</a> (credit: Jemma Kwak)!
