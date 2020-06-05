@@ -24,6 +24,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 		- Then, decompress the files somewhere on your computer
 	- Option 2: `git clone https://github.com/alandgton/activism-mail-bot.git`
 		- Requires: a Github account, a terminal, and git installation
+<p>&nbsp;</p>
 2. Temporarily grant mailbot permission to send emails on your behalf
 	- Turn [_Allow less secure apps_  to  _ON_](https://myaccount.google.com/lesssecureapps) for your gmail account.
 		- Be aware that this makes it easier for others to gain access to your account.
@@ -34,8 +35,8 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - Option 1: Use Docker (**RECOMMENDED**)
 	- Shoutout to [darrylbalderas](https://github.com/darrylbalderas) for setting this up!
 	- Install docker-engine
-    		* [Mac or Windows](https://docs.docker.com/engine/install/)
-   		* [Linux](https://docs.docker.com/engine/install/ubuntu/)
+    		- [Mac or Windows](https://docs.docker.com/engine/install/)
+   		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 	- Build docker image `docker build -t activism-mailbot .`
 	- Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
 	- Get container id `docker ps -aqf "name=activism-mailbot"`
@@ -68,8 +69,10 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 			- Enter blank (nothing) when finished selecting cities
 		- Enter blank (nothing) when finished selecting states
 	- NOTE: some city councilmembers may ask for your address to confirm that you are their constituent
+<p>&nbsp;</p>
 2.  Enter the subject (title) of your emails.
 	- If blank, mailbot will randomly generate a spicy title for you
+<p>&nbsp;</p>
 3.  Would you like to write your own email or have mailbot do it for you?
 	- If you want mailbot to write the emails, answer y.
 	- Else if you have your own email message, answer n.
@@ -78,6 +81,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 			- Easiest way: edit the contents of `example.txt`
 			- Tell mailbot the name of your .txt file
 			- Example: `example.txt`
+<p>&nbsp;</p>
 4.  Enter your full name
 5.  Enter your gmail
 6.  Enter your gmail password
@@ -85,7 +89,8 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	
 ## Final Steps
 
-- Please add more recipients! [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8)
+- Please add more recipients!
+	- [Use this Google Form](https://forms.gle/Duy52iF4i5kvyb9K8) or add to `recipients.py` and submit a pull request
 - thank you for your time, we did some good work :^)
 - activism++
 - **Please remember to switch `Allow less secure apps` to OFF.**
