@@ -24,6 +24,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 		- Then, decompress the files somewhere on your computer
 	- Option 2: `git clone https://github.com/alandgton/activism-mail-bot.git`
 		- Requires: a Github account, a terminal, and git installation
+
 2. Temporarily grant mailbot permission to send emails on your behalf
 	- Turn [_Allow less secure apps_  to  _ON_](https://myaccount.google.com/lesssecureapps) for your gmail account.
 		- Be aware that this makes it easier for others to gain access to your account.
@@ -34,6 +35,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - Option 1: Use Docker (**RECOMMENDED**)
 	- Shoutout to [darrylbalderas](https://github.com/darrylbalderas) for setting this up!
 	- Install docker-engine
+
     		- [Mac or Windows](https://docs.docker.com/engine/install/)
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
