@@ -2,21 +2,13 @@
 
 In light of recent events, I have created this Python script to send emails (using the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/)) to a list of 334 elected US officials.
 
-The script sends a **unique message to each lawmaker** by varying sentence structures and switching out nouns, verbs, adverbs, and adjectives with synonyms.
+The script sends a **unique message to each lawmaker** by varying sentence structures and switching out nouns, verbs, adverbs, and adjectives with synonyms. Please report bugs to alandgton@gmail.com!
 
 **This script only works for gmail accounts.** 
 
-tl;dr to use the script,  run `python3 send.py` in a terminal.
-
-For a step-by-step walkthrough, see below. Please report bugs to alandgton@gmail.com!
-
 NOTE: there is a per-minute limit on SMTP messages sent via google's servers. to appease our corporate overlords, i've decreased the speed of our operations.
 
-TODO List:
-- Setup Google OAuth2 so `activism-mail-bot` can use the gmail API instead of using SMTP.
-- Accept JSON input from a front-end service to make `activism-mail-bot` more accessible. Checkout [la-mailer repo](https://github.com/michaelnyu/la-mailer).
-
-Also, I don't really care about code ownership. I'm hoping that, if you're going to use this tool in one of your projects, you'll have enough self-respect to give credit where it is due. My only request is that you DO NOT MONETIZE this script. Thanks!!
+If you're going to use this tool in one of your projects, I'm hoping that you'll have enough self-respect to give credit where it is due. **Please do not monetize this script.** Thanks!!
 
 ## Setup
 1. Download the source code
@@ -39,12 +31,12 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 	- Run the command: `./exec-docker`
-		- If that doesn't work, then execute the sequence of commands below:
-			- Build docker image: `docker build -t activism-mailbot .`
+		- If that doesn't work, then execute the following sequence of commands:
+			- `docker build -t activism-mailbot .`
 			- Might need to remove the old container: `docker rm -f activism-mailbot`
-			- Create docker container in background: `docker run --name activism-mailbot -d activism-mailbot`
-			- Get container id: `docker ps -aqf "name=activism-mailbot"`
-			- Create an interactive terminal session into container: `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+			- `docker run --name activism-mailbot -d activism-mailbot`
+			- `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+
 	- Run application: `python send.py`
 	
 - Option 2: Legacy Method
