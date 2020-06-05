@@ -32,10 +32,10 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 
 	- Run the command: `./exec-docker`
 		- If that doesn't work, then execute the following sequence of commands:
-			- Build docker image: `docker build -t activism-mailbot .`
+			- `docker build -t activism-mailbot .`
 			- Might need to remove the old container: `docker rm -f activism-mailbot`
-			- Create docker container in background: `docker run --name activism-mailbot -d activism-mailbot`
-			- Create an interactive terminal session: `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+			- `docker run --name activism-mailbot -d activism-mailbot`
+			- `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
 
 	- Run application: `python send.py`
 	
