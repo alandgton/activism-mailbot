@@ -36,6 +36,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- Install docker-engine
     		- [Mac or Windows](https://docs.docker.com/engine/install/)
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
+
 	- Build docker image `docker build -t activism-mailbot .`
 	- Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
 	- Get container id `docker ps -aqf "name=activism-mailbot"`
