@@ -42,7 +42,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 	- Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
 	- Get container id `docker ps -aqf "name=activism-mailbot"`
 	- Create an interactive terminal session into container `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
-	- Run application `python send.py
+	- Run application `python send.py`
 	
 - Option 2: Legacy Method
 	- [Install python3](https://realpython.com/installing-python/)
