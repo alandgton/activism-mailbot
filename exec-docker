@@ -1,0 +1,11 @@
+#!/bin/bash
+
+docker build -t activism-mailbot .
+
+echo Removing old container...
+docker rm -f activism-mailbot
+
+echo Starting new container...
+docker run --name activism-mailbot -d activism-mailbot
+
+docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash
