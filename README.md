@@ -38,11 +38,14 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
     	- [Mac or Windows](https://docs.docker.com/engine/install/)
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
-	- Build docker image `docker build -t activism-mailbot .`
-	- Create docker container in background ` docker run --name activism-mailbot -d activism-mailbot`
-	- Get container id `docker ps -aqf "name=activism-mailbot"`
-	- Create an interactive terminal session into container `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
-	- Run application `python send.py`
+	- Run the command: `./exec-docker`
+		- If that doesn't work, then execute the sequence of commands below:
+			- Build docker image: `docker build -t activism-mailbot .`
+			- Might need to remove the old container: `docker rm -f activism-mailbot`
+			- Create docker container in background: `docker run --name activism-mailbot -d activism-mailbot`
+			- Get container id: `docker ps -aqf "name=activism-mailbot"`
+			- Create an interactive terminal session into container: `docker exec -it $(docker ps -aqf "name=activism-mailbot") /bin/bash`
+	- Run application: `python send.py`
 	
 - Option 2: Legacy Method
 	- [Install python3](https://realpython.com/installing-python/)
