@@ -340,10 +340,10 @@ mailing_list = {
             ( "Councilman David Knight", "Raleigh", "david.knight@raleighnc.gov" ),
         ],
         "Apex" : [
-            ( "Mayor Jacques Gilbert ", "Apex", "jacques.gilbert@apexnc.org" ),
-            ( "Mayor Pro Tem Nicole Dozier ", "Apex", "nicole.dozier@apexnc.org" ),
+            ( "Mayor Jacques Gilbert", "Apex", "jacques.gilbert@apexnc.org" ),
+            ( "Mayor Pro Tem Nicole Dozier", "Apex", "nicole.dozier@apexnc.org" ),
             ( "Council Member Brett Gantt", "Apex", "brett.gantt@apexnc.org" ),
-            ( "Council Member Audra Killingsworth ", "Apex", "audra.killingsworth@apexnc.org" ),
+            ( "Council Member Audra Killingsworth", "Apex", "audra.killingsworth@apexnc.org" ),
             ( "Council Member Terry Mahaffey", "Apex", "terry.mahaffey@apexnc.org" ),
             ( "Council Member Cheryl Stallings", "Apex", "cheryl.stallings@apexnc.org" ),
             ( "Chief John Letteney", "Apex", "John.Letteney@apexnc.org" ),
