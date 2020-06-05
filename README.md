@@ -35,8 +35,7 @@ Also, I don't really care about code ownership. I'm hoping that, if you're going
 - Option 1: Use Docker (**RECOMMENDED**)
 	- Shoutout to [darrylbalderas](https://github.com/darrylbalderas) for setting this up!
 	- Install docker-engine
-
-    		- [Mac or Windows](https://docs.docker.com/engine/install/)
+    	- [Mac or Windows](https://docs.docker.com/engine/install/)
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 	- Build docker image `docker build -t activism-mailbot .`
