@@ -37,6 +37,18 @@ mailing_list = {
             ( "Councilmember David E. Ryu", "LA", "david.ryu@lacity.org"),
             ( "LA Board of Police Commissioners", "LA", "policecommission@lapd.online"),
         ],
+        "Oakland" : [
+            ( "Mayor Libby Schaaf", "Oakland", "officeofthemayor@oaklandnet.com"),
+            ( "Ethics Commission", "Oakland", "ethicscommission@oaklandca.gov"),
+            ( "Councilmember Dan Kalb", "Oakland", "dkalb@oaklandca.gov"),
+            ( "Councilmember Rebecca Kaplan", "Oakland", "rkaplan@oaklandca.gov"),
+            ( "Councilmember Nikki Fortunato Bas", "Oakland", "nfbas@oaklandca.gov"),
+            ( "Councilmember Lynette Gibson McElhaney", "Oakland", "LMcElhaney@oaklandca.gov"),
+            ( "Councilmember Sheng Thao", "Oakland", "district4@oaklandca.gov"),
+            ( "Councilmember Loren Taylor", "Oakland", "District6@oaklandca.gov"),
+            ( "Councilmember Noel Gallo", "Oakland", "Ngallo@oaklandca.gov"),
+            ( "Councilmember Larry Reid", "Oakland", "lreid@oaklandnet.com"),
+        ],
         "Orange County" : [
             ( "Supervisor Michelle Steel", "OC", "Michelle.Steel@ocgov.com"),
             ( "Supervisor Andrew Do", "OC", "Andrew.Do@ocgov.com"),
@@ -63,6 +75,18 @@ mailing_list = {
             ( "Councilmember Chris Ledesma", "West Sacramento", "chrisl@cityofwestsacramento.org"),
             ( "Councilmember Martha Guerrero", "West Sacramento", "mguerrero@cityofwestsacramento.org"),
             ( "Mayor Pro Tem Beverly Sandeen", "West Sacramento", "beverlys@cityofwestsacramento.org"),
+        ],
+        "San Diego" : [
+            ( "Mayor Kevin Faulconer", "San Diego", "kevinfaulconer@sandiego.gov"),
+            ( "Council President Barbara Bry", "San Diego", "barbarabry@sandiego.gov"),
+            ( "Councilmember Jennifer Campbell", "San Diego", "jennifercampbell@sandiego.gov"),
+            ( "Councilmember Chris Ward", "San Diego", "christopherward@sandiego.gov"),
+            ( "Councilmember Monica Montgomery", "San Diego", "monicamontgomery@sandiego.gov"),
+            ( "Councilmember Mark Kersey", "San Diego", "markkersey@sandiego.gov"),
+            ( "Councilmember Chris Cate", "San Diego", "chriscate@sandiego.gov"),
+            ( "Councilmember Scott Sherman", "San Diego", "scottsherman@sandiego.gov"),
+            ( "Councilmember Vivian Moreno", "San Diego", "vivianmoreno@sandiego.gov"),
+            ( "Councilmember Georgette Gomez", "San Diego", "georgettegomez@sandiego.gov"),
         ],
         "San Francisco" : [
             ( "Mayor London N. Breed", "SF", "MayorLondonBreed@sfgov.org"),
@@ -228,6 +252,15 @@ mailing_list = {
             ( "Senator Brian Kavanaugh", "NYC", "kavanagh@nysenate.gov"),
             ( "Assemblymember Richard Gottfried", "NYC", "GottfriedR@assembly.state.ny.us"),
             ( "Assemblymember Deborah Glick", "NYC", "glickd@assembly.state.ny.us"),
+        ],
+    },
+    "Oregon" : {
+        "Portland" : [
+            ( "Mayor Ted Wheeler", "Portland", "mayorwheeler@portlandoregon.gov"),
+            ( "Commissioner Amanda Fritz", "Portland", "Amanda@portlandoregon.gov"),
+            ( "Commissioner Jo Ann Hardesty", "Portland", "JoAnn@portlandoregon.gov"),
+            ( "Commissioner Nick Fish", "Portland", "nick@portlandoregon.gov"),
+            ( "Commissioner Chloe Eudaly", "Portland", "chloe@portlandoregon.gov"),
         ],
     },
     "Pennsylvania" : {
