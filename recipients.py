@@ -558,6 +558,18 @@ mailing_list = {
             ( "Councilmember Shirley Gonzales", "San Antonio", "Shirley.Gonzales@sanantonio.gov"),
         ],
     },
+    "Vermont" : {
+        "Burlington" : [
+            ( "Mayor Miro Weinberger", "Burlington", "mayor@burlingtonvt.gov"),
+            ( "Councilmember Zoraya Hightower", "Burlington", "zhightower@burlingtonvt.gov"),
+            ( "Councilmember Max Tracy", "Burlington", "mtracy@burlingtonvt.gov"),
+            ( "Councilmember Brian Pine", "Burlington", "bpine@burlingtonvt.gov"),
+            ( "Councilmember Sarah Carpenter", "Burlington", "scarpenter@burlingtonvt.gov"),
+            ( "Councilmember William \"Chip\" Mason", "Burlington", "cmason@burlingtonvt.gov"),
+            ( "Councilmember Karen Paul", "Burlington", "kpaul@burlingtonvt.gov"),
+            ( "Councilmember Ali Dieng", "Burlington", "adieng@burlingtonvt.gov"),
+        ],
+    },
     "Washington" : {
         "Seattle" : [
             ( "Mayor Jenny Durkan", "Seattle", "jenny.durkan@seattle.gov"),
