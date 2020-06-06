@@ -22,6 +22,9 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 		- Be aware that this makes it easier for others to gain access to your account.
 		- After running the script, you should switch this back OFF.
 		- Your name, gmail, and password aren't being stored on a server anywhere, this script is run from your own computer!
+	- If you have 2 Factor Authentication enabled on your gmail account:
+		- [Follow these instructions](https://support.google.com/accounts/answer/185833)
+	
 
 ## Running the script
 - Option 1: Use Docker (**RECOMMENDED**)
