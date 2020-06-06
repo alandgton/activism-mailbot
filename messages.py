@@ -9,7 +9,7 @@ import random
 
 # Randomly generates the subject header of the email
 def gen_subject():
-    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen", "The Need for Law Enforcement Reform", "Reforms to Law Enforcement Needed", "Your Duty as a Public Servant"]
+    s = ["Human Rights Inquiry", "Thoughts of a Concerned Citizen", "In Light of Recent Human Rights Abuses", "The Need for Police Oversight", "The Need for Police Accountability", "The Failures of Modern Law Enforcement", "Law Enforcement Must Change", "The Voice of a Troubled Citizen", "The Need for Law Enforcement Reform", "Reforms to Law Enforcement Needed", "Your Duty as a Public Servant", "Your Responsibility as a Public Servant"]
     return random.choice(s)
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
@@ -29,15 +29,18 @@ def attach_greeting(person, body):
 # Generates the first sentence of the email.
 def gen_intro(location):
     mess = ["in shambles", "in ruins", "a disaster", "a mess"]
-    nominer = ["As a concerned resident of the US,", "I am a resident of the United States and", "As a concerned American,"]
+    nominer = ["As a concerned US resident,", "I am a resident of the United States and", "As a concerned American,"]
     contact = ["getting in touch", "reaching out to you", "contacting you", "sending you this message"]
     adverb = ["deeply", "very", "greatly", "extremely", "especially", "immensely"]
     concern = ["troubled", "concerned", "disturbed", "distressed", "distraught", "worried", "devastated"]
-    reason = ["unfair treatment of African-Americans", "blatant racism against African-Americans", "unjust treatment of African-Americans", "violence against African-Americans"]
+    reason = ["unfair treatment of African-Americans", "blatant racism against African-Americans", "unjust treatment of African-Americans", "violence against African-Americans", "atrocities against the African-American community"]
     scale = ["across the nation", "throughout the country", "nationwide", "across the country", "throughout the nation"]
 
-    if random.randint(0,100) % 2:
+    r = random.randint(0,100)
+    if r < 33:
         return f'The current law enforcement system is {random.choice(mess)}. I am {random.choice(contact)} because I am {random.choice(adverb)} {random.choice(concern)} by the {random.choice(reason)} by police {random.choice(scale)}.\n'
+    elif r < 66:
+        return f'I am {random.choice(contact)} because of the {random.choice(adverb)} disturbing cases of {random.choice(reason)} by law enforcement officers {random.choice(scale)}.\n'
     else:
         return f'{random.choice(nominer)} I am {random.choice(contact)} because I am {random.choice(adverb)} {random.choice(concern)} by what I have seen recently regarding the {random.choice(reason)} by police {random.choice(scale)}.\n'
 
@@ -79,7 +82,11 @@ def gen_conclusion(name):
     verb = ["support", "want", "approve of"]
     place = ["law enforcement agencies", "police departments", "government institutions", "public institutions"]
 
-    return f'If these {random.choice(noun)} are not in place, then they {random.choice(adverb)} should be. {gen_action()} I do not {random.choice(verb)} my local taxes being used to fund {random.choice(place)} that perpetuate racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{gen_closing(name)}'
+    r = random.randint(0,100)
+    if r % 2:
+        return f'If these {random.choice(noun)} are not in place, then they {random.choice(adverb)} should be. {gen_action()} I do not {random.choice(verb)} my local taxes being used to fund {random.choice(place)} that perpetuate racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{gen_closing(name)}'
+    else:
+        return f'These {random.choice(noun)} must be put into place to protect American rights and lives. As a taxpayer, I do not {random.choice(verb)} my taxes being used to fund {random.choice(place)} that perpetuate institutional racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{gen_closing(name)}'
 
 def gen_action():
     bank = [
