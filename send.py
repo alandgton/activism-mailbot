@@ -57,7 +57,7 @@ def prompt_recipients():
     while True:
         print_barrier()
         print("Which state officials do you want to send emails to?")
-        if cart: print("Cities chosen: ", cart, "\n")
+        if cart: print(f'Cities chosen: {cart}\n')
         state_options = { v:k for v,k in enumerate(recipients.get_states()) }
         for idx, opt in state_options.items():
             print(idx, "->", opt)
@@ -82,7 +82,7 @@ def prompt_recipients():
                 city_options = { v:k for v,k in enumerate(recipients.get_cities(state)) }
                 print_barrier()
                 print("Which city officials do you want to send emails to?")
-                if subcart: print("Cities chosen: ", subcart, "\n")
+                if subcart: print(f'Cities chosen: {subcart}\n')
                 for idx, opt in city_options.items():
                     print(idx, "->", opt)
                 print("Enter blank (nothing) when done.")
@@ -112,7 +112,7 @@ def prompt_recipients():
     if not recv:
         sys.exit("ABORT: no recipients selected.")
 
-    print("\nSending emails to %d state/local officials...\n" % (len(recv)))
+    print(f'\n{len(recv)} recipients selected.\n')
 
     return recv
 
@@ -120,6 +120,7 @@ def prompt_recipients():
 port = 465 # standard port for SMTP over SSL
 smtp_server = "smtp.gmail.com"
 
+send = 0
 recv = prompt_recipients()
 subject, message = prompt_email()
 src_name, src_email, password = prompt_login()
@@ -148,7 +149,10 @@ while True:
                 print(msg.as_string())
 
                 server.send_message(msg)
+                send += 1
         break
     except smtplib.SMTPException:
         print("Unexpected error... trying again in 10 seconds.")
         time.sleep(10)
+
+print(f'\nSuccessfully sent {send} emails!\n')
