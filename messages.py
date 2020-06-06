@@ -60,21 +60,20 @@ def gen_curiosity():
 
 # Randomly generates a relentless stream of hard-hitting rhetorical questions
 def gen_rhetorical_questions():
-    q = [
+    q1 = [
             "Are all officers required to wear body cameras to record their responses to calls on video?",
             "Do departments perform any form of anti-racism training for officers?",
             "How do internal affairs investigate and respond to reports of discrimination, racism, and unjust brutality?",
             "How can the general public be ensured that incidences of racist violence by police are not simply swept under the rug? In particular, how can I be sure that police officers are held accountable for their actions?",
-            "Have you pledged to never again support increased police funding?",
+    ]
+    q2 = [
             "Will you develop a plan for defunding law enforcement, and reallocate these funds to critical social services?",
             "Will you protect and expand current investment in community-led health and safety strategies, instead of investing in police?",
             "What have you done to compel local law enforcement agencies to immediately cease enacting violence on community members?",
             "How are you working on eliminating qualified immunity for police officers that has allowed too many incidents of police misconduct to disappear without consequence?",
-            
     ]
     
-    return ' '.join(random.sample(q, k=len(q)))
-
+    return f"{' '.join(random.sample(q1,k=len(q1)))} {' '.join(random.sample(q2,k=len(q2)))}"
 
 def gen_conclusion(name):
     noun = ["safeguards", "policies", "provisions"]
@@ -140,3 +139,4 @@ def gen_closing(name):
             "Best",
     ]
     return f'\n{random.choice(c)},\n{name}'
+print(gen_body("a","a",'a'))
