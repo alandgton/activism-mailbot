@@ -329,7 +329,6 @@ mailing_list = {
             ( "Councilmember Khrystian E. King", "Worcester", "KingK@worcesterma.gov"),
             ( "Councilmember Gary Rosen", "Worcester", "RosenG@worcesterma.gov"),
             ( "Councilmember Kathleen M. Toomey", "Worcester", "ToomeyK@worcesterma.gov"),
-            ( "Councilmember Sean M. Rose", "Worcester", "RoseM@worcesterma.gov"),
             ( "Councilmember Candy F. Mero-Carlson", "Worcester", "Mero-CarlsonC@worcesterma.gov"),
             ( "Councilmember George J. Russell", "Worcester", "RussellG@worcesterma.gov"),
             ( "Councilmember Sarai Rivera", "Worcester", "RiveraSA@worcesterma.gov"),
