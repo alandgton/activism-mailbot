@@ -425,6 +425,13 @@ mailing_list = {
             ( "Chief Laura Fahnestock", "Fuquay-Varina", "lfahnestock@fuquay-varina.org" ),
         ],
     },
+    "Ohio" : {
+        "Columbus" : [
+            ( "Mayor Andrew J. Ginther", "Columbus", "311@columbus.gov"),
+            ( "Council President Shannon G. Hardin", "Columbus", "sghardin@columbus.gov"),
+            ( "Councilmember Rob Dorans", "Columbus", "radorans@columbus.gov"),
+        ],
+    },
     "Oregon" : {
         "Portland" : [
             ( "Mayor Ted Wheeler", "Portland", "mayorwheeler@portlandoregon.gov"),
@@ -498,6 +505,12 @@ mailing_list = {
             ( "Councilmember Rick Smith", "Plano", "ricksmith@plano.gov"),
             ( "Councilmember Lily Bao", "Plano", "lilybao@plano.gov"),
         ],
+        "San Antonio" : [
+            ( "Mayor Ron Nirenberg", "San Antonio", "ron.nirenberg@sanantonio.gov"),
+            ( "Councilmember Roberto C. Trevino", "San Antonio", "district1@sanantonio.gov"),
+            ( "Councilmember Jada Andrews-Sullivan", "San Antonio", "district2@sanantonio.gov"),
+            ( "Councilmember Shirley Gonzales", "San Antonio", "Shirley.Gonzales@sanantonio.gov"),
+        ],
     },
     "Washington" : {
         "Seattle" : [
@@ -510,6 +523,9 @@ mailing_list = {
             ( "Councilmember Dan Strauss", "Seattle", "dan.strauss@seattle.gov"),
             ( "Councilmember Andrew Lewis", "Seattle", "andrew.lewis@seattle.gov"),
             ( "Councilmember Teresa Mosqueda", "Seattle", "teresa.mosqueda@seattle.gov"),
+        ],
+        "Tacoma" : [
+            ( "Mayor Victoria Woodards", "Tacoma", "nnowman@cityoftacoma.org"),
         ],
     },
 }

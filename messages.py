@@ -14,7 +14,7 @@ def gen_subject():
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
 def gen_body(src_name, dst_name, location):
-    return "%s\t%s\t%s\t%s" % (gen_greeting(dst_name), gen_intro(location), gen_curiosity(), gen_conclusion(src_name))
+    return "%s\t%s\n\t%s\n\t%s" % (gen_greeting(dst_name), gen_intro(location), gen_curiosity(), gen_conclusion(src_name))
 
 # Generates the greeting to the recipient of the email
 def gen_greeting(person):
