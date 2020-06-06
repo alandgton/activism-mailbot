@@ -478,6 +478,19 @@ mailing_list = {
             ( "Councilmember Rob Dorans", "Columbus", "radorans@columbus.gov"),
         ],
     },
+    "Oklahoma" : {
+        "Oklahoma City" : [
+            ( "Mayor David Holt", "Oklahoma City", "mayor@okc.gov"),
+            ( "Councilmember James Greiner", "Oklahoma City", "ward1@okc.gov"),
+            ( "Councilmember James Cooper", "Oklahoma City", "ward2@okc.gov"),
+            ( "Councilmember Larry McAtee", "Oklahoma City", "ward3@okc.gov"),
+            ( "Councilmember Todd Stone", "Oklahoma City", "ward4@okc.gov"),
+            ( "Councilmember David Greenwell", "Oklahoma City", "ward5@okc.gov"),
+            ( "Councilmember JoBeth Hamon", "Oklahoma City", "ward6@okc.gov"),
+            ( "Councilmember Nikki Nice", "Oklahoma City", "ward7@okc.gov"),
+            ( "Councilmember Mark Stonecipher", "Oklahoma City", "ward8@okc.gov"),
+        ],
+    },
     "Oregon" : {
         "Portland" : [
             ( "Mayor Ted Wheeler", "Portland", "mayorwheeler@portlandoregon.gov"),
