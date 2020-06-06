@@ -56,20 +56,15 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 ## How to use mailbot
 
 1.  Choose which officials you would like to send emails to
-	- Enter the number corresponding to the state of your choice
-		- Enter 0 to select all and send emails to everyone on the mailing list
-			- At the time of writing, there are 378 people on the list
-		- Next, choose which city officials you would like to send emails to
-			- Enter the number corresponding to the city you chose
-				- Enter 0 to select all cities
-			- Enter blank (nothing) when finished selecting cities
-		- Enter blank (nothing) when finished selecting states
+	- Enter the number corresponding to the state/city/county of your choice
+		- Enter 0 to Select All (current total: 378 recipients)
+	- Enter blank (nothing) when finished selecting
 	- NOTE: some city councilmembers may ask for your address to confirm that you are their constituent
 2.  Enter the subject (title) of your emails.
 	- If blank, mailbot will randomly generate a spicy title for you
 3.  Would you like to write your own email or have mailbot do it for you?
-	- If you want mailbot to write the emails, answer y.
-	- Else if you have your own email message, answer n.
+	- If you want mailbot to write the emails, answer `y`.
+	- Else if you have your own email message, answer `n`.
 		- Mailbot will now read from a .txt file
 		- Please write your own email in a .txt file
 			- Easiest way: edit the contents of `example.txt`
