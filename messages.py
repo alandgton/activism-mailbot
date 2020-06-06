@@ -32,8 +32,8 @@ def gen_intro(location):
     nominer = ["As a concerned resident of the US,", "I am a resident of the United States and", "As a concerned American,"]
     contact = ["getting in touch", "reaching out to you", "contacting you", "sending you this message"]
     adverb = ["deeply", "very", "greatly", "extremely", "especially", "immensely"]
-    concern = ["troubled", "concerned", "disturbed"]
-    reason = ["unfair treatment of African-Americans", "blatant racism against African-Americans"]
+    concern = ["troubled", "concerned", "disturbed", "distressed", "distraught", "worried", "devastated"]
+    reason = ["unfair treatment of African-Americans", "blatant racism against African-Americans", "unjust treatment of African-Americans", "violence against African-Americans"]
     scale = ["across the nation", "throughout the country", "nationwide", "across the country", "throughout the nation"]
 
     if random.randint(0,100) % 2:

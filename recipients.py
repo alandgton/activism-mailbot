@@ -279,6 +279,7 @@ mailing_list = {
             ( "Councilmember Jeremy Schroeder", "Minneapolis", "Jeremy.Schroeder@minneapolismn.gov"),
             ( "Councilmember Andrew Johnson", "Minneapolis", "Andrew.Johnson@minneapolismn.gov"),
             ( "Councilmember Linea Palmisano", "Minneapolis", "Linea.Palmisano@minneapolismn.gov"),
+            ( "Director Velma Korbel", "Minneapolis", "velma.korbel@minneapolismn.gov"),
         ],
     },
     "Missouri" : {
