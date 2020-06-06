@@ -27,7 +27,8 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 - Option 1: Use Docker (**RECOMMENDED**)
 	- Shoutout to [darrylbalderas](https://github.com/darrylbalderas) for setting this up!
 	- Install docker-engine
-    	- [Mac or Windows](https://docs.docker.com/engine/install/)
+    	- [Mac or Windows](https://docs.docker.com/engine/install/) (Catalina, Mojave, or High Sierra; Windows 10 Pro, Enterprise, or Education)
+    	    - For older Mac and Windows systems install [Docker Toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/)
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 	- Run the command: `./exec-docker`
