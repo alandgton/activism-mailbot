@@ -155,4 +155,6 @@ while True:
         print("Unexpected error... trying again in 10 seconds.")
         time.sleep(10)
 
+print_barrier()
 print(f'\nSuccessfully sent {send} emails!\n')
+print_barrier()
