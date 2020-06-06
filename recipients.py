@@ -226,6 +226,8 @@ mailing_list = {
     "Illinois" : {
         "Chicago" : [
             ( "Mayor Lori Lightfoot", "Chicago", "letterforthemayor@cityofchicago.org"),
+            ( "Sheriff Thomas Dart", "Chicago", "sheriff.dart@cookcountyil.gov"),
+            ( "State's Attorney Kimberly Foxx", "Chicago", "statesattorney@cookcountyil.gov"),
         ],
     },
     "Maryland" : {
