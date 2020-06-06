@@ -14,17 +14,17 @@ def gen_subject():
 
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
 def gen_body(src_name, dst_name, location):
-    return "%s\t%s\n\t%s\n\t%s" % (gen_greeting(dst_name), gen_intro(location), gen_curiosity(), gen_conclusion(src_name))
+    return f'{gen_greeting(dst_name)}\t{gen_intro(location)}\n\t{gen_curiosity()}\n\t{gen_conclusion(src_name)}'
 
 # Generates the greeting to the recipient of the email
 def gen_greeting(person):
     s = ["Dear", "Hello", "Greetings", "Hi"]
-    return "%s %s,\n\n" % (random.choice(s), person)
+    return f'{random.choice(s)} {person},\n\n'
 
 # Prepends greeting statement to a user-generated message
 def attach_greeting(person, body):
     s = ["Dear", "Hello", "Greetings", "Hi"]
-    return "%s %s,\n\n%s" % (random.choice(s), person, body)
+    return f'{random.choice(s)} {person},\n\n{body}'
 
 # Generates the first sentence of the email.
 def gen_intro(location):
@@ -37,9 +37,9 @@ def gen_intro(location):
     scale = ["across the nation", "throughout the country", "nationwide", "across the country", "throughout the nation"]
 
     if random.randint(0,100) % 2:
-        return "The current law enforcement system is %s. I am %s because I am %s %s by the %s by police %s.\n" % (random.choice(mess), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
+        return f'The current law enforcement system is {random.choice(mess)}. I am {random.choice(contact)} because I am {random.choice(adverb)} {random.choice(concern)} by the {random.choice(reason)} by police {random.choice(scale)}.\n'
     else:
-        return "%s I am %s because I am %s %s by what I have seen recently regarding the %s by police %s.\n" % (random.choice(nominer), random.choice(contact), random.choice(adverb), random.choice(concern), random.choice(reason), random.choice(scale))
+        return f'{random.choice(nominer)} I am {random.choice(contact)} because I am {random.choice(adverb)} {random.choice(concern)} by what I have seen recently regarding the {random.choice(reason)} by police {random.choice(scale)}.\n'
 
 # Randomly generates a message rooted on human curiosity to expose the inadequacies of the current system
 def gen_curiosity():
@@ -49,11 +49,11 @@ def gen_curiosity():
     crime = ["incidents of racism", "violations of human rights", "occurrences of racism", "exploitations of human rights"]
 
     if random.randint(0,100) % 2:
-        return "As a public servant, what %s will you make to protect black lives? In addition, what %s are in place to prevent %s by officers? %s" % (random.choice(work), random.choice(noun), random.choice(crime), gen_rhetorical_questions())
+        return f'As a public servant, what {random.choice(work)} will you make to protect black lives? In addition, what {random.choice(noun)} are in place to prevent {random.choice(crime)} by officers? {gen_rhetorical_questions()}\n'
     else:
-        return "I would like to %s what %s our police departments have in place to prevent %s by officers, and what %s you will make to protect black lives. %s\n" % (random.choice(verb), random.choice(noun), random.choice(crime), random.choice(work), gen_rhetorical_questions())
+        return f'I would like to {random.choice(verb)} what {random.choice(noun)} our police departments have in place to prevent {random.choice(crime)} by officers, and what {random.choice(work)} you will make to protect black lives. {gen_rhetorical_questions()}\n'
 
-#{NOTE} I might want to change the ones that just say "incidents of racism" to stronger statements
+#{NOTE} I want to change the ones that just say "incidents of racism" to stronger statements
 
 # Randomly generates a relentless stream of hard-hitting rhetorical questions
 def gen_rhetorical_questions():
@@ -75,9 +75,11 @@ def gen_rhetorical_questions():
 
 def gen_conclusion(name):
     noun = ["safeguards", "policies", "provisions"]
+    adverb = ['certainly', 'definitely', 'absolutely', 'undoubtedly']
     verb = ["support", "want", "approve of"]
     place = ["law enforcement agencies", "police departments", "government institutions", "public institutions"]
-    return "If these %s are not in place, then they certainly should be. %s I do not %s my local taxes being used to fund %s that perpetuate racism and violence. %s\n%s\n%s" % (random.choice(noun), gen_action(), random.choice(verb), random.choice(place), gen_interests(), gen_gratitude(), gen_closing(name))
+
+    return f'If these {random.choice(noun)} are not in place, then they {random.choice(adverb)} should be. {gen_action()} I do not {random.choice(verb)} my local taxes being used to fund {random.choice(place)} that perpetuate racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{gen_closing(name)}'
 
 def gen_action():
     bank = [
@@ -89,11 +91,14 @@ def gen_action():
     return random.choice(bank)
 
 def gen_interests():
-    preambles = [
-            "Services that I would rather see funded include",
-            "I would like to redirect funding to"
-            "Areas that I would like funds to be redirected to include",
+    noun = [ 'Services', 'Programs']
+    preamble = [
+            f'{random.choice(noun)} that I would rather see funded include: ',
+            'I would like to redirect funding to',
     ]
+    return f'{random.choice(preamble)} {gen_services()} to name only a few.'
+
+def gen_services():
     i = [
             "mental health professionals,",
             "crisis de-escalators,",
@@ -103,13 +108,13 @@ def gen_interests():
             "increased social services for formerly incarcerated residents",
             "increased funding for nutrition and food access programs"
     ]
-    return "Services that I would rather see funded include: %s to name only a few." % (' '.join(random.sample(i, k=len(i))))
+    return ' '.join(random.sample(i, k=len(i)))
 
 def gen_gratitude():
     clauses = [
             "Thank you for your attention to my concerns.",
             "Thanks for taking the time to read my message.",
-            "Your attention to my concerns are very appreciated.",
+            "Your attention to my concerns is very appreciated.",
     ]
     finale = [
             "I hope to hear back from you soon.",
@@ -117,7 +122,7 @@ def gen_gratitude():
             "I look forward to hearing back from you.",
     ]
 
-    return "%s %s" % (random.choice(clauses), random.choice(finale))
+    return f'{random.choice(clauses)} {random.choice(finale)}'
 
 def gen_closing(name):
     c = [
@@ -127,4 +132,4 @@ def gen_closing(name):
             "Regards",
             "Best",
     ]
-    return "\n%s,\n%s" % (random.choice(c), name)
+    return f'\n{random.choice(c)},\n{name}'
