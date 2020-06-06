@@ -570,6 +570,16 @@ mailing_list = {
             ( "Councilmember Andrew Lewis", "Seattle", "andrew.lewis@seattle.gov"),
             ( "Councilmember Teresa Mosqueda", "Seattle", "teresa.mosqueda@seattle.gov"),
         ],
+        "Spokane" : [
+            ( "Mayor Nadine Woodward", "Spokane", "mayor@spokanecity.org"),
+            ( "Councilmember Breean Beggs", "Spokane", "bbeggs@spokanecity.org"),
+            ( "Councilmember Michael Cathcart", "Spokane", "mcathcart@spokanecity.org"),
+            ( "Councilmember Kate Burke", "Spokane", "kateburke@spokanecity.org"),
+            ( "Councilmember Lori Kinnear", "Spokane", "lkinnear@spokanecity.org"),
+            ( "Councilmember Betsy Wilkerson", "Spokane", "bwilkerson@spokanecity.org"),
+            ( "Councilmember Candace Mumm", "Spokane", "cmumm@spokanecity.org"),
+            ( "Councilmember Karen Stratton", "Spokane", "kstratton@spokanecity.org"),
+        ],
         "Tacoma" : [
             ( "Mayor Victoria Woodards", "Tacoma", "nnowman@cityoftacoma.org"),
         ],
