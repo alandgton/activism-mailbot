@@ -41,7 +41,7 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 	
 - Option 2: Legacy Method
 	- [Install python3](https://realpython.com/installing-python/)
-	- Mac Users: you can double-click the `install-python3-osx` file instead
+	- Mac Users: you can double-click the `install-osx-python3` file instead
 	- Windows Users: TBD
 
 	- Mac Users: you may need to install certificates for SSL to work
