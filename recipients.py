@@ -388,6 +388,18 @@ mailing_list = {
         ],
     },
     "New York" : {
+        "Buffalo" : [
+            ( "Mayor Bryon W. Brown", "Buffalo", "mayor@city-buffalo.com"),
+            ( "Councilmember Darius G. Pridgen", "Buffalo", "dpridgen@city-buffalo.com"),
+            ( "Councilmember David A. Rivera", "Buffalo", "darivera@city-buffalo.com"),
+            ( "Councilmember Christopher P. Scanlon ", "Buffalo", "cscanlon@city-buffalo.com"),
+            ( "Councilmember Joel P. Feroleto", "Buffalo", "jferoleto@city-buffalo.com"),
+            ( "Councilmember Bryan Bollman", "Buffalo", "bbollman@city-buffalo.com"),
+            ( "Councilmember Mitch Nowakowski", "Buffalo", "mnowakowski@city-buffalo.com"),
+            ( "Councilmember Joseph Golombek, Jr.", "Buffalo", "jgolombek@city-buffalo.com"),
+            ( "Councilmember Ulysees O. Wingo, Sr.", "Buffalo", "uwingo@city-buffalo.com"),
+            ( "Councilmember Rasheed N.C. Wyatt", "Buffalo", "rwyatt@city-buffalo.com"),
+        ],
         "NYC" : [
             ( "Mayor Bill de Blasio", "NYC", "bdeblasio@cityhall.nyc.gov"),
             ( "Manhattan Borough President Gale Brewer", "NYC", "gbrewer@manhattanbp.nyc.gov"),
@@ -398,6 +410,18 @@ mailing_list = {
             ( "Senator Brian Kavanaugh", "NYC", "kavanagh@nysenate.gov"),
             ( "Assemblymember Richard Gottfried", "NYC", "GottfriedR@assembly.state.ny.us"),
             ( "Assemblymember Deborah Glick", "NYC", "glickd@assembly.state.ny.us"),
+        ],
+        "Rochester": [
+            ( "Mayor Lovely A. Warren", "Rochester", "info@cityofrochester.gov"),
+            ( "Councilmember Loretta C. Scott", "Rochester", "Loretta.Scott@cityofrochester.gov"),
+            ( "Councilmember Malik D. Evans", "Rochester", "Malik.Evans@cityofrochester.gov"),
+            ( "Councilmember Mitchell D. Gruber", "Rochester", "Mitch.Gruber@cityofrochester.gov"),
+            ( "Councilmember Willie J. Lightfoot", "Rochester", "Willie.Lightfoot@cityofrochester.gov"),
+            ( "Councilmember Jacklyn Ortiz", "Rochester", "Jacklyn.Ortiz@cityofrochester.gov"),
+            ( "Councilmember LaShay D. Harris", "Rochester", "LaShay.Harris@cityofrochester.gov"),
+            ( "Councilmember Mary Lupien", "Rochester", "Mary.Lupien@cityofrochester.gov"),
+            ( "Councilmember Michael A. Patterson", "Rochester", "Michael.Patterson@cityofrochester.gov"),
+            ( "Councilmember Jose Peo", "Rochester", "Jose.Peo@cityofrochester.gov"),
         ],
     },
     "North Carolina" : {
