@@ -1,3 +1,4 @@
+import messages, random
 """
     Template credit: nomoreracistcops.github.io
     Additional demands from:
