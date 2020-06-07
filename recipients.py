@@ -147,7 +147,14 @@ mailing_list = {
             ("Councilmember Karen Hardy", "Santa Clara", "khardy@santaclaraca.gov"),
             ("Councilmember Debbie Davis", "Santa Clara", "ddavis@santaclaraca.gov"),
             ("City Attorney Brian Doyle", "Santa Clara", "CityAttorney@santaclaraca.gov"),
-        ],
+            ("Supervisor Mike Wasserman", "Santa Clara County", "mike.wasserman@bos.sccgov.org"),
+            ("Supervisor Cindy Chavez", "Santa Clara County", "cindy.chavez@bos.sccgov.org"),
+            ("Supervisor Dave Cortese", "Santa Clara County", "dave.cortese@bos.sccgov.org"),
+            ("Supervisor Susan Ellenberg", "Santa Clara County", "supervisor.ellenberg@bos.sccgov.org"),
+            ("Supervisor Joe Simitian", "Santa Clara County", "supervisor.simitian@bos.sccgov.org"),
+            ("District Attorney Jeffrey Rosen", "Santa Clara County", "jrosen@dao.sccgov.org"),
+            ("County Sheriff Laurie Smith", "Santa Clara County", "so.website@shf.sccgov.org"),
+	  ],
     },
     "Colorado" : {
         "Denver" : [
