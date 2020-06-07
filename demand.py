@@ -10,7 +10,7 @@ It has been proven time and time again that police brutality is a systemic issue
 
 """
 def gen_message(name):
-    return f"{gen_thesis('Alan')} {gen_elaborate()} {gen_more()} {gen_suggest()}"
+    return f"{gen_thesis('Alan')} {gen_elaborate()} {gen_more()} {gen_redirect()} {gen_final()}"
 
 def gen_thesis(name):
     n = [ "My name is", "I'm" ]
@@ -33,26 +33,26 @@ def gen_elaborate():
 
     return f"{random.choice(h)} that police brutality is {random.choice(adjective)} {random.choice(noun)} that {random.choice(adverb)} {random.choice(verb)} {random.choice(p)} {random.choice(scale)}."
 
-# def gen_more():
-#     i = ["This is unacceptable.", "This is intolerable.", "The status quo is failing us.", "The current system is failing us.", "The status quo needs to be reformed.", "The law enforcement system needs to be reformed."]
-#     n = ["desire", "need", "yearning", "craving"]
-#     a = ["systemic", "structural", "institutional"]
-#     c = ["change", "reform"]
-#     p = ["policing", "law enforcement"]
-#     r = ["manifested in", "resulted in", "brought about"]
-#     u = ["public unrest", "civil unrest", "protests and riots across the nation"]
+def gen_more():
+     i = ["This is unacceptable.", "This is intolerable.", "The status quo is failing us.", "The current system is failing us.", "The status quo needs to be reformed.", "The law enforcement system needs to be reformed."]
+     n = ["desire", "need", "yearning", "craving"]
+     a = ["systemic", "structural", "institutional"]
+     c = ["change", "reform"]
+     p = ["policing", "law enforcement"]
+     r = ["manifested in", "resulted in", "brought about"]
+     u = ["public unrest", "civil unrest", "protests and riots across the nation"]
 
-#     return f"{random.choice(i)} At this time, the {random.choice(n)} for {random.choice(a)} {random.choice(c)} to {random.choice(p)} has {random.choice(r)} {random.choice(u)}."
+     return f"{random.choice(i)} At this time, the {random.choice(n)} for {random.choice(a)} {random.choice(c)} to {random.choice(p)} has {random.choice(r)} {random.choice(u)}."
 
-# def gen_suggest():
-#     f = ["funds", "resources", "energy", "money"]
-#     a = ["must", "should", "need to"]
-#     v = ["redirected", "diverted"]
-#     s = ["services", "programs", "resources"]
-#     r = ["reflect", "support"]
-#     n = ["needs", "concerns", "desires"]
+def gen_suggest():
+     f = ["funds", "resources", "energy", "money"]
+     a = ["must", "should", "need to"]
+     v = ["redirected", "diverted"]
+     s = ["services", "programs", "resources"]
+     r = ["reflect", "support"]
+     n = ["needs", "concerns", "desires"]
 
-#     return f"The city's {random.choice(f)} {random.choice(a)} be {random.choice(v)} to {random.choice(s)} that {random.choice(r)} the {random.choice(n)} of our community: {gen_interests()}."
+     return f"The city's {random.choice(f)} {random.choice(a)} be {random.choice(v)} to {random.choice(s)} that {random.choice(r)} the {random.choice(n)} of our community: {gen_interests()}."
 
 def gen_turnpoint():
 	unacceptable = ["unacceptable", "indefensible", "inexcusable"]
@@ -102,12 +102,10 @@ def gen_final():
 		return f'{random.choice(nominer)} you have a {random.choice(choice)} to listen to your community, and focus on {random.choice(wellbeing)} {random.choice(people)} rather than {random.choice(protection)} the police. We will continue to {random.choice(voices)}.\n'
 
 
+print(gen_message("Alan"))
 
 # As elected officials, you have a duty to listen to your community, and focus on benefiting all of your constituents rather than overprotecting the police. We will continue to make our voice heard. 
 
 # This is done already in messages.gen_closing()
 # Sincerely, 
 # [Your Full Name Here]
-
-
-
