@@ -35,6 +35,8 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
    		- [Linux](https://docs.docker.com/engine/install/ubuntu/)
 
 	- Run the command: `./exec-docker`
+		- Make sure you're in the `activism-mailbot/` or `activism-mailbot-master/` directory
+			- Use `cd activism-mailbot/` or `cd ~/activism-mailbot/` or `cd /path/to/activism-mailbot/`
 		- If that doesn't work, then execute the following sequence of commands:
 			- `docker build -t activism-mailbot .`
 			- Might need to remove the old container: `docker rm -f activism-mailbot`
