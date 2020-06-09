@@ -190,6 +190,15 @@ mailing_list = {
         ],
     },
     "Florida" : {
+        "Gainesville": [
+            ("Mayor Lauren Poe", "Gainesville", "poelb@cityofgainesville.org"),
+            ("Commissioner Reina Saco", "Gainesville", "sacore@cityofgainesville.org"),
+            ("Commissioner Gail Johnson", "Gainesville", "johnsong1@cityofgainesville.org"),
+            ("Commissioner Gigi Simmons", "Gainesville", "simmonsgg@cityofgainesville.org"),
+            ("Commissioner Harvey Ward", "Gainesville", "wardhl@cityofgainesville.org"),
+            ("Commissioner David Arreola", "Gainesville", "arreoladi@cityofgainesville.org"),
+            ("Commissioner Adrian Hayes-Santos", "Gainesville", "hayessantosa@cityofgainesville.org"),
+        ],
         "Jacksonville" : [
             ( "Mayor Lenny Curry", "Jacksonville", "MayorLennyCurry@coj.net"),
             ( "Councilmember Joyce Morgan", "Jacksonville", "JoyceMorgan@coj.net"),
@@ -223,15 +232,6 @@ mailing_list = {
             ( "Commissioner Patty Sheehan", "Orlando", "patty.sheehan@orlando.gov"),
             ( "Commissioner Regina I. Hill", "Orlando", "regina.hill@orlando.gov"),
             ( "Commissioner Bakari F. Burns", "Orlando", "bakari.burns@orlando.gov"),
-        ],
-        "Gainesville": [
-            ("Mayor Lauren Poe", "Gainesville", "poelb@cityofgainesville.org"),
-            ("Commissioner Reina Saco", "Gainesville", "sacore@cityofgainesville.org"),
-            ("Commissioner Gail Johnson", "Gainesville", "johnsong1@cityofgainesville.org"),
-            ("Commissioner Gigi Simmons", "Gainesville", "simmonsgg@cityofgainesville.org"),
-            ("Commissioner Harvey Ward", "Gainesville", "wardhl@cityofgainesville.org"),
-            ("Commissioner David Arreola", "Gainesville", "arreoladi@cityofgainesville.org"),
-            ("Commissioner Adrian Hayes-Santos", "Gainesville", "hayessantosa@cityofgainesville.org"),
         ],
     },
     "Georgia" : {
