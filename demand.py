@@ -10,7 +10,7 @@ It has been proven time and time again that police brutality is a systemic issue
 
 """
 def gen_message(name):
-    return f"{gen_thesis('Alan')} {gen_elaborate()} {gen_more()} {gen_redirect()} {gen_final()}"
+    return f"\t{gen_thesis(name)} {gen_elaborate()} {gen_more()}\n\n\t{gen_redirect()}\n\n\t{gen_final()}"
 
 def gen_thesis(name):
     n = [ "My name is", "I'm" ]
@@ -79,33 +79,24 @@ def gen_redirect():
 
 	r = random.randint(0,100)
 	if r < 50:
-		return f'The budget of this city should be {random.choice(redirect)}ed into programs that support the {random.choice(needs)} of {random.choice(people)}: {", ".join(random.sample(programs, 7))}, and small business resources amongst others.\n'
+		return f'The budget of this city should be {random.choice(redirect)}ed into programs that support the {random.choice(needs)} of {random.choice(people)}: {", ".join(random.sample(programs, len(programs)-3))}, and small business resources amongst others.'
 	else:
-		return f'There are many programs the city could invest in, like {random.choice(programs)}, {random.choice(programs)}, and {random.choice(programs)} (to name a few), that would greatly benefit {random.choice(people)}. You have the obligation to {random.choice(redirect)} the funds of your city from the police to a more {random.choice(deserving)} cause.\n' 
+            return f'There are many programs that the city could invest in that would greatly benefit {random.choice(people)} like: {", ".join(random.sample(programs, len(programs)-3))} (only to name a few). You have the obligation to {random.choice(redirect)} the funds of your city from the police to a more {random.choice(deserving)} cause.' 
 
 
 def gen_final():
-	nominer = ["As elected officials,", "Being that you are elected to office,", "You are elected officials and"]
-	choice = ["duty, obligation, responsibility, requirement"]
-	wellbeing = ["benefiting all of ", "serving ", "helping", "taking care of", "assisting"]
+	nominer = ["As an elected official,", "Being that you have been elected to office,", "You are an elected official and", "As a public servant,", "You are a public servant and"]
+	choice = ["duty", "obligation", "responsibility", "requirement"]
+	wellbeing = ["benefiting all of", "serving", "helping", "taking care of", "assisting"]
 	people = ["your constituents", "those who elected you", "the people who put you in office", "your voters", "the members in your community"]
 	protection = ["overprotecting", "unfairly aiding", "shielding", "protecting"]
 	voices = ["make our voices heard", "speak out against injustice", "make our voices known", "speak up for our black community", "speak up until change is delivered"]
-	seek = ["seek", "intend", "toil", "make it a priority to"]
+	seek = ["seek", "intend", "toil", "make it a priority"]
 	
 	r = random.randint(0,100)
 	if r < 33:
-	    return f'You should understand that {random.choice(protection)} the police is no longer an option. We will continue to {random.choice(voices)}, and you should {random.choice(seek)} to take action that benfits us. We are {random.choice(people)}, and we deserve to be heard.\n'
+	    return f'You should understand that {random.choice(protection)} the police is no longer an option. We will continue to {random.choice(voices)}, and you should {random.choice(seek)} to take action that benfits us. We are {random.choice(people)} and we deserve to be heard.'
 	elif r < 66:
-	    return f'As your community it is our {random.choice(choice)} to {random.choice(voices)}, and it is yours to listen. You should {random.choice(seek)} to help {random.choice(people)}, instead of {random.choice(protection)} the police.\n'
+	    return f'It is our {random.choice(choice)} to {random.choice(voices)} and it is yours to listen. You should {random.choice(seek)} to help {random.choice(people)}, instead of {random.choice(protection)} the police.'
 	else:
-		return f'{random.choice(nominer)} you have a {random.choice(choice)} to listen to your community, and focus on {random.choice(wellbeing)} {random.choice(people)} rather than {random.choice(protection)} the police. We will continue to {random.choice(voices)}.\n'
-
-
-print(gen_message("Alan"))
-
-# As elected officials, you have a duty to listen to your community, and focus on benefiting all of your constituents rather than overprotecting the police. We will continue to make our voice heard. 
-
-# This is done already in messages.gen_closing()
-# Sincerely, 
-# [Your Full Name Here]
+		return f'{random.choice(nominer)} you have a {random.choice(choice)} to listen to your community, and focus on {random.choice(wellbeing)} {random.choice(people)} rather than {random.choice(protection)} the police. We will continue to {random.choice(voices)}.'

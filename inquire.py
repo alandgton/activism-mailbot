@@ -1,10 +1,13 @@
-import messages, random
+import random
 """
     Template credit: nomoreracistcops.github.io
     Additional demands from:
     https://secure.everyaction.com/eR7GA7oz70GL8doBq19LrA2
     https://docs.google.com/document/d/1V2l7bdg6QeqtqVWDr5HFzVzieiT0vg6jZASN6syBNyY/edit
 """
+
+def gen_message(location):
+    return f'{gen_intro(location)}\n\t{gen_curiosity()}\n\t{gen_conclusion()}'
 
 # Generates the first sentence of the email.
 def gen_intro(location):
@@ -55,7 +58,7 @@ def gen_rhetorical_questions():
     
     return f"{' '.join(random.sample(q1,k=len(q1)))} {' '.join(random.sample(q2,k=len(q2)))}"
 
-def gen_conclusion(name):
+def gen_conclusion():
     noun = ["safeguards", "policies", "provisions"]
     adverb = ['certainly', 'definitely', 'absolutely', 'undoubtedly']
     verb = ["support", "want", "approve of"]
@@ -63,9 +66,9 @@ def gen_conclusion(name):
 
     r = random.randint(0,100)
     if r % 2:
-        return f'If these {random.choice(noun)} are not in place, then they {random.choice(adverb)} should be. {gen_action()} I do not {random.choice(verb)} my local taxes being used to fund {random.choice(place)} that perpetuate racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{messages.gen_closing(name)}'
+        return f'If these {random.choice(noun)} are not in place, then they {random.choice(adverb)} should be. {gen_action()} I do not {random.choice(verb)} my local taxes being used to fund {random.choice(place)} that perpetuate racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}'
     else:
-        return f'These {random.choice(noun)} must be put into place to protect American rights and lives. As a taxpayer, I do not {random.choice(verb)} my taxes being used to fund {random.choice(place)} that perpetuate institutional racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}\n{messages.gen_closing(name)}'
+        return f'These {random.choice(noun)} must be put into place to protect American rights and lives. As a taxpayer, I do not {random.choice(verb)} my taxes being used to fund {random.choice(place)} that perpetuate institutional racism and violence. {gen_interests()}\n\n\t{gen_gratitude()}'
 
 def gen_action():
     bank = [

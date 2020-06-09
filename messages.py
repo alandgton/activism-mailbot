@@ -1,4 +1,6 @@
-import demand, inquire, random
+import random
+import inquire as inq
+import demand as dem
 
 # Randomly generates the subject header of the email
 def gen_subject():
@@ -8,7 +10,10 @@ def gen_subject():
 # Randomly generates the body of the email, follows structure of template and swaps out select words/phrases
 def gen_body(src_name, dst_name, location):
     r = random.randint(0,100)
-    return f'{gen_greeting(dst_name)}\t{inquire.gen_intro(location)}\n\t{inquire.gen_curiosity()}\n\t{inquire.gen_conclusion(src_name)}'
+    if r < 50:
+        return f'{gen_greeting(dst_name)}\t{inq.gen_message(location)}\n{gen_closing(src_name)}'
+    else:
+        return f'{gen_greeting(dst_name)}\t{dem.gen_message(src_name)}\n{gen_closing(src_name)}'
 
 # Generates the greeting to the recipient of the email
 def gen_greeting(person):
