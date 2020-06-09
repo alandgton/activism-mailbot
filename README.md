@@ -1,6 +1,6 @@
 # Activism Mailbot
 
-In light of recent events, I have created this Python script to send emails to a list of 498 elected US officials.
+In light of recent events, I have created this Python script to send emails to a list of 505 elected US officials.
 
 The script sends a **unique message to each lawmaker** by varying sentence structures and switching out nouns, verbs, adverbs, and adjectives with synonyms. Each email is constructed to roughly follow the template from [nomoreracistcops.github.io](https://nomoreracistcops.github.io/). Please report bugs to alandgton@gmail.com!
 
@@ -63,7 +63,7 @@ If you're going to use this tool in one of your projects, I'm hoping that you'll
 
 1. Choose which officials you would like to send emails to
 	- Enter the number corresponding to the state/city/county of your choice
-		- Enter 0 to Select All (current total: 498 recipients)
+		- Enter 0 to Select All (current total: 505 recipients)
 	- Enter blank (nothing) when finished selecting
 	- NOTE: some city councilmembers may ask for your address to confirm that you are their constituent
 	

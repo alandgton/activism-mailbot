@@ -139,4 +139,3 @@ def gen_closing(name):
             "Best",
     ]
     return f'\n{random.choice(c)},\n{name}'
-print(gen_body("a","a",'a'))
