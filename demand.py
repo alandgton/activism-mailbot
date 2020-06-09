@@ -81,7 +81,7 @@ def gen_redirect():
 	if r < 50:
 		return f'The budget of this city should be {random.choice(redirect)}ed into programs that support the {random.choice(needs)} of {random.choice(people)}: {", ".join(random.sample(programs, 7))}, and small business resources amongst others.\n'
 	else:
-		return f'There are many programs the city could invest in, like {random.choice(programs)}, {random.choice(programs)}, and {random.choice(programs)} (to name a few), that would greatly benefit {random.choice(people)}. You have the obligation to {random.choice(redirect)} the funds of your city from the police, to a more {random.choice(deserving)} cause.\n' 
+		return f'There are many programs the city could invest in, like {random.choice(programs)}, {random.choice(programs)}, and {random.choice(programs)} (to name a few), that would greatly benefit {random.choice(people)}. You have the obligation to {random.choice(redirect)} the funds of your city from the police to a more {random.choice(deserving)} cause.\n' 
 
 
 def gen_final():
