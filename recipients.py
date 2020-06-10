@@ -4,6 +4,28 @@
 # a dictionary that maps states to dictionaries that map counties to contacts
 # contacts are tuples (name, county, email)
 mailing_list = {
+    "Alabama" : {
+            "Birmingham" : [
+                ( "Councilor Clinton P. Woods", "Birmingham", "clinton.woods@birminghamal.gov"),
+                ( "Councilor Hunter Williams", "Birmingham", "hunter.williams@birminghamal.gov"),
+                ( "Councilor Valerie A. Abbott", "Birmingham", "valerie.abbott@birminghamal.gov"),
+                ( "Councilor William Parker", "Birmingham", "william.parker@birminghamal.gov"),
+                ( "Councilor Darrell O’Quinn", "Birmingham", "darrell.oquinn@birminghamal.gov"),
+                ( "Councilor Crystal N. Smitherman, Esq.", "Birmingham", "crystal.smitherman@birminghamal.gov"),
+                ( "Councilor Wardine T. Alexander", "Birmingham", "wardine.alexander@birminghamal.gov"),
+                ( "Councilor Steven W. Hoyt", "Birmingham", "steven.hoyt@birminghamal.gov"),
+                ( "Councilor John R. Hilliard", "Birmingham", "john.hilliard@birminghamal.gov"),
+                ( "District Attorney Danny Carr", "Birmingham", "DAinquiry@jccal.org")
+            ],
+            "Huntsville": [
+                ("Mayor Tommy Battle", "Huntsville", "Contact@HuntsvilleAL.gov"),
+                ("Council Member Devyn S. Keith", "Huntsville", "Devyn.Keith@HuntsvilleAL.gov"),
+                ("Council Member Frances Akridge", "Huntsville", "Frances.Akridge@HuntsvilleAL.gov"),
+                ("Council Member Jennie Robinson", "Huntsville", "Jennie.Robinson@HuntsvilleAL.gov"),
+                ("Council Member Bill Kling", "Huntsville", "Bill.Kling@HuntsvilleAL.gov"),
+                ("Council Member Will Culver", "Huntsville", "Will.Culver@HuntsvilleAL.gov")
+            ],
+    },
     "Arizona" : {
         "Phoenix" : [
             ( "Mayor Kate Gallego", "Phoenix", "mayor.gallego@phoenix.gov"),
