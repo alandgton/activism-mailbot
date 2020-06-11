@@ -287,6 +287,21 @@ mailing_list = {
             ( "Councilmember Matt Westmoreland", "Atlanta", "mwestmoreland@atlantaga.gov"),
             ( "Councilmember Andre Dickens", "Atlanta", "adickens@atlantaga.gov"),
         ],
+        "Augusta": [
+            ("Mayor Hardie Davis, Jr.", "Augusta", "mayordavis@augustaga.gov"),
+            ("City Administrator Jarvis Sims", "Augusta", "city.administrator@augustaga.gov"),
+            ("Commissioner William Fennoy", "Augusta", "fennoy@augustaga.gov"),
+            ("Commissioner Ben Hasan", "Augusta", "bhasan@augustaga.gov"),
+            ("Commissioner Dennis Williams", "Augusta", "denniswilliams@augustaga.gov"),
+            ("Commissioner Sean Frantom", "Augusta", "sfrantom@augustaga.gov"),
+            ("Commissioner Mary Davis", "Augusta", "mfdavis@augustaga.gov"),
+            ("Commissioner Brandon Garrett", "Augusta", "bgarrett@augustaga.gov"),
+            ("Commissioner Sammie Sias", "Augusta", "ssias@augustaga.gov"),
+            ("Commissioner J.P. Matzigkeit", "Augusta", "jpmatzigkeit@Augustaga.gov"),
+            ("Commissioner Marion Williams", "Augusta", "mfwilliams@augustaga.gov"),
+            ("Commissioner Bobby Williams", "Augusta", "bobby.williams@augustaga.gov"),
+            ("Commissioner John Clarke", "Augusta", "jclarke@augustaga.gov"),
+        ],
     },
     "Illinois" : {
         "Chicago" : [
