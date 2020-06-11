@@ -4,6 +4,28 @@
 # a dictionary that maps states to dictionaries that map counties to contacts
 # contacts are tuples (name, county, email)
 mailing_list = {
+    "Alabama" : {
+            "Birmingham" : [
+                ( "Councilor Clinton P. Woods", "Birmingham", "clinton.woods@birminghamal.gov"),
+                ( "Councilor Hunter Williams", "Birmingham", "hunter.williams@birminghamal.gov"),
+                ( "Councilor Valerie A. Abbott", "Birmingham", "valerie.abbott@birminghamal.gov"),
+                ( "Councilor William Parker", "Birmingham", "william.parker@birminghamal.gov"),
+                ( "Councilor Darrell O’Quinn", "Birmingham", "darrell.oquinn@birminghamal.gov"),
+                ( "Councilor Crystal N. Smitherman, Esq.", "Birmingham", "crystal.smitherman@birminghamal.gov"),
+                ( "Councilor Wardine T. Alexander", "Birmingham", "wardine.alexander@birminghamal.gov"),
+                ( "Councilor Steven W. Hoyt", "Birmingham", "steven.hoyt@birminghamal.gov"),
+                ( "Councilor John R. Hilliard", "Birmingham", "john.hilliard@birminghamal.gov"),
+                ( "District Attorney Danny Carr", "Birmingham", "DAinquiry@jccal.org")
+            ],
+            "Huntsville": [
+                ("Mayor Tommy Battle", "Huntsville", "Contact@HuntsvilleAL.gov"),
+                ("Council Member Devyn S. Keith", "Huntsville", "Devyn.Keith@HuntsvilleAL.gov"),
+                ("Council Member Frances Akridge", "Huntsville", "Frances.Akridge@HuntsvilleAL.gov"),
+                ("Council Member Jennie Robinson", "Huntsville", "Jennie.Robinson@HuntsvilleAL.gov"),
+                ("Council Member Bill Kling", "Huntsville", "Bill.Kling@HuntsvilleAL.gov"),
+                ("Council Member Will Culver", "Huntsville", "Will.Culver@HuntsvilleAL.gov")
+            ]
+    },
     "Arizona" : {
         "Phoenix" : [
             ( "Mayor Kate Gallego", "Phoenix", "mayor.gallego@phoenix.gov"),
@@ -171,6 +193,17 @@ mailing_list = {
             ( "Councilman Chris Hinds", "Denver", "chris.hinds@denvergov.org"),
             ( "Councilwoman Stacie Gilmore", "Denver", "stacie.gilmore@denvergov.org"),
         ],
+        "Colorado Springs": [
+            ("Councilmember Don Knight", "Colorado Springs", "Don.Knight@Coloradosprings.gov"),
+            ("Councilmember David Geislinger", "Colorado Springs", "David.Geislinger@Coloradosprings.gov"),
+            ("Councilmember Richard Skorman", "Colorado Springs", "Richard.Skorman@coloradosprings.gov"),
+            ("Councilmember Yolanda Avila", "Colorado Springs", "Yolanda.Avila@coloradosprings.gov"),
+            ("Councilmember Jill Gaebler", "Colorado Springs", "Jill.Gaebler@coloradosprings.gov"),
+            ("Councilmember Andres Pico", "Colorado Springs", "Andy.Pico@Coloradosprings.gov"),
+            ("Councilmember Bill Murray", "Colorado Springs", "bill.murray@coloradosprings.gov"),
+            ("Councilmember Tom Strand", "Colorado Springs", "tom.strand@coloradosprings.gov"),
+            ("Councilmember Wayne Williams", "Colorado Springs", "Wayne.williams@coloradosprings.gov"),
+        ],
     },
     "District of Columbia" : {
         "DC" : [
@@ -253,6 +286,21 @@ mailing_list = {
             ( "Councilmember Michael Julian Bond", "Atlanta", "mbond@atlantaga.gov"),
             ( "Councilmember Matt Westmoreland", "Atlanta", "mwestmoreland@atlantaga.gov"),
             ( "Councilmember Andre Dickens", "Atlanta", "adickens@atlantaga.gov"),
+        ],
+        "Augusta": [
+            ("Mayor Hardie Davis, Jr.", "Augusta", "mayordavis@augustaga.gov"),
+            ("City Administrator Jarvis Sims", "Augusta", "city.administrator@augustaga.gov"),
+            ("Commissioner William Fennoy", "Augusta", "fennoy@augustaga.gov"),
+            ("Commissioner Ben Hasan", "Augusta", "bhasan@augustaga.gov"),
+            ("Commissioner Dennis Williams", "Augusta", "denniswilliams@augustaga.gov"),
+            ("Commissioner Sean Frantom", "Augusta", "sfrantom@augustaga.gov"),
+            ("Commissioner Mary Davis", "Augusta", "mfdavis@augustaga.gov"),
+            ("Commissioner Brandon Garrett", "Augusta", "bgarrett@augustaga.gov"),
+            ("Commissioner Sammie Sias", "Augusta", "ssias@augustaga.gov"),
+            ("Commissioner J.P. Matzigkeit", "Augusta", "jpmatzigkeit@Augustaga.gov"),
+            ("Commissioner Marion Williams", "Augusta", "mfwilliams@augustaga.gov"),
+            ("Commissioner Bobby Williams", "Augusta", "bobby.williams@augustaga.gov"),
+            ("Commissioner John Clarke", "Augusta", "jclarke@augustaga.gov"),
         ],
     },
     "Illinois" : {
