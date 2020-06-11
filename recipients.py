@@ -24,7 +24,7 @@ mailing_list = {
                 ("Council Member Jennie Robinson", "Huntsville", "Jennie.Robinson@HuntsvilleAL.gov"),
                 ("Council Member Bill Kling", "Huntsville", "Bill.Kling@HuntsvilleAL.gov"),
                 ("Council Member Will Culver", "Huntsville", "Will.Culver@HuntsvilleAL.gov")
-            ],
+            ]
     },
     "Arizona" : {
         "Phoenix" : [
@@ -192,6 +192,17 @@ mailing_list = {
             ( "Councilwoman Candi CdeBaca", "Denver", "district9@denvergov.org"),
             ( "Councilman Chris Hinds", "Denver", "chris.hinds@denvergov.org"),
             ( "Councilwoman Stacie Gilmore", "Denver", "stacie.gilmore@denvergov.org"),
+        ],
+        "Colorado Springs": [
+            ("Councilmember Don Knight", "Colorado Springs", "Don.Knight@Coloradosprings.gov"),
+            ("Councilmember David Geislinger", "Colorado Springs", "David.Geislinger@Coloradosprings.gov"),
+            ("Councilmember Richard Skorman", "Colorado Springs", "Richard.Skorman@coloradosprings.gov"),
+            ("Councilmember Yolanda Avila", "Colorado Springs", "Yolanda.Avila@coloradosprings.gov"),
+            ("Councilmember Jill Gaebler", "Colorado Springs", "Jill.Gaebler@coloradosprings.gov"),
+            ("Councilmember Andres Pico", "Colorado Springs", "Andy.Pico@Coloradosprings.gov"),
+            ("Councilmember Bill Murray", "Colorado Springs", "bill.murray@coloradosprings.gov"),
+            ("Councilmember Tom Strand", "Colorado Springs", "tom.strand@coloradosprings.gov"),
+            ("Councilmember Wayne Williams", "Colorado Springs", "Wayne.williams@coloradosprings.gov"),
         ],
     },
     "District of Columbia" : {
